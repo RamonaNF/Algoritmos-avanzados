@@ -17,20 +17,22 @@
     para producirlas ya que últimamente se han registrado retrasos en los tiempos de entrega.
 """
 
-import random
+# Librería para generar números aleatorios
+from random import randint
 
 def aleatorio():
     """
-      Retorna dos números aleatorios entre 5 y 50
+      La función aleatorio retorna dos números 
+      aleatorios entre 5 y 50
     """
-    a = random.randint(5, 50)
-    b = random.randint(5, 50)
+    a = randint(5, 50)
+    b = randint(5, 50)
 
     return a, b
 
-def programa(n):
+def calcularDias(camisas):
     """
-      La función programa(n) recibe un parámetro entero 
+      La función calcularDias(camisas) recibe un parámetro entero 
       que representa el número de camisas a producir
 
       Retorna el número de días necesarios para completar la entrega
@@ -39,13 +41,13 @@ def programa(n):
     produccion1 = []
     produccion2 = []
     
-    while n > 0:
+    while camisas > 0:
         linea1, linea2 = aleatorio()
         
         produccion1.append(linea1)
         produccion2.append(linea2)
 
-        n -= (linea1 + linea2) 
+        camisas -= (linea1 + linea2) 
         dias += 1
         
     print("Producción línea 1: ", produccion1)
@@ -55,14 +57,15 @@ def programa(n):
     
 
 print("Ejecutando programa interactivo...\n")
-n = int(input("Camisas a entregar: "))
-print("")
 
-print("Se requirieron ", programa(n), " días para realizar la entrega\n")
+camisas = int(input("Camisas a entregar: "))
+print()
+
+print("Se requirieron ", calcularDias(camisas), " días para realizar la entrega\n")
 
 print("\nEjecutando casos prueba...\n")
 
-for i in range(4):
-    prueba = random.randint(10, 1000)
-    print("Camisas a entregar: ", prueba)
-    print("Se requirieron ", programa(prueba), " días para realizar la entrega\n")
+for i in range(4): # Casos prueba aleatorios
+    camisasPrueba = randint(10, 1000)
+    print("Camisas a entregar: ", camisasPrueba)
+    print("Se requirieron ", calcularDias(camisasPrueba), " días para realizar la entrega\n")
