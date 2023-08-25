@@ -1,3 +1,14 @@
+"""
+  Autores: José Armando Rosas Balderas, a01704132@tec.mx
+           Diego Perdomo Salcedo, a01709150@tec.mx
+           Ramona Najera Fuentes, a01423596@tec.mx
+
+  Creación: 25 de agosto del 2023
+  
+  Descripción: Archivo de prueba para las implementaciones de merge sort.
+  
+"""
+
 from MergeSort import mergeSort as sort1
 from MergeSort_indices import mergeSort as sort2
 from copy import copy

@@ -5,21 +5,24 @@
 
   Creación: 25 de agosto del 2023
   
-  Descripción: 
-    
+  Descripción: Este es el algoritmo de ordenamiento por mezcla. 
+  En esta implementacion trabajamos en base a índices.
+
+  Complejidad: O (n log n) 
+
 """
 
 def split(ini: int, fin: int) -> list: 
-    """ La función split recibe como parametros
-    limite inferior y un limite superior y 
-    obtiene el numero medio"""
+    """ La función split recibe como parámetros
+    un límite inferior y un límite superior y 
+    obtiene el numero medio """
     
     return (ini + fin) // 2 
 
 
 def merge(arr: list, ini: int, mid: int, fin : int) -> None:
     """ La función merge ordena los subarreglos de menor a
-      mayor y los vuelve a unir"""
+      mayor y los vuelve a unir """
       
     helper = []
     
@@ -44,11 +47,14 @@ def merge(arr: list, ini: int, mid: int, fin : int) -> None:
 
 
 def mergeSort(arr: list, ini: int, fin: int) -> None: 
-    
+    """
+    La función mergeSort recibe como parámetros un arreglo 
+    y los límites superiores e inferiores. Ordena el arreglo 
+    dado utilizando el algoritmo por mezcla
+    """
     if ini < fin:
         mid = split(ini, fin)
 
         mergeSort(arr, ini, mid)
         mergeSort(arr, mid + 1, fin)
         merge(arr, ini, mid, fin)
-
