@@ -5,155 +5,106 @@
 
   Creación: 10 de septiembre del 2023
   
-  Descripción: .
+  Descripción: Solucionando un laberinto 
+               backtracking vs ramificación y poda.
 
-  Complejidad: O (  ) 
-
+  Complejidad: O( x^n )
+  
 """
-
-import sys 
+import sys
 import copy
 
 movimientos = [[1, 0], [0, -1], [-1, 0], [0, 1]] # Derecha - Abajo - Izquierda - Arriba
 
+success = False
+target = None
+mapa = []
 
-def inBounds(mapa: list, movement: tuple) -> bool:
+camino_backtracking = []
+
+camino_poda = []
+mejor_camino = []
+best = sys.maxsize
+
+def inBounds(movement: tuple, camino: list) -> bool:
     if 0 <= movement[0] < len(mapa):
         if 0 <= movement[1] < len(mapa[0]):
-            if mapa[movement[0]][movement[1]] == 1:
+            if mapa[movement[0]][movement[1]] == 1 and camino[movement[0]][movement[1]] == 0:
                 return True
     
     return False
 
 
-def isNeighbor(one: tuple, two: tuple):
-    for mov in movimientos:
-        if (one[0] + mov[0], one[1] + mov[1]) == two:
-            return True
+def maze_solver(m : list, t: tuple):
+    global target, mapa, camino_backtracking, mejor_camino, camino_poda
     
-    return False
+    target = t
+    mapa = m
+    
+    camino_poda = [[0 for col in range(len(mapa[0]))] for row in range(len(mapa))]
+    camino_backtracking = [[0 for col in range(len(mapa[0]))] for row in range(len(mapa))]
+    mejor_camino = [[0 for col in range(len(mapa[0]))] for row in range(len(mapa))]
+
+    camino_poda[0][0] = 1
+    camino_backtracking[0][0] = 1
+    mejor_camino[0][0] = 1
+
+    back_tracking(2, (0,0))
+    ramificacion_y_poda(2, (0,0))
+
+    return camino_backtracking, mejor_camino
 
 
-def back_tracking(mapa : list, target: tuple):
-    visited = set()
-    xVisit = [(0, 0)]
-    prev = []
+def back_tracking(steps: int, ini: tuple):
+    global success, camino_backtracking
+    
+    k = 0 # Índice del movimiento
+    
+    while True:
+        new_pos = (ini[0] + movimientos[k][0], ini[1] + movimientos[k][1])
 
-    camino = [[0 for i in range(len(mapa[0]))] for j in range(len(mapa))]
-    steps = 1
+        if inBounds(new_pos, camino_backtracking):
+            camino_backtracking[new_pos[0]][new_pos[1]] = steps
 
-    while len(xVisit) > 0:
-        x, y = xVisit.pop()
-        visited.add((x, y))
-
-        camino[x][y] = steps
-        steps += 1
-
-        if (x, y) == target: 
+            if camino_backtracking[target[0]][target[1]] == 0:
+                back_tracking(steps + 1, new_pos)
+                
+                if not success:
+                    camino_backtracking[new_pos[0]][new_pos[1]] = 0
+            
+            else:
+                success = True
+        
+        k += 1
+        
+        if k > 3 or success:
             break
-        
-        
-        get_back = True
-        for mov in movimientos:
-            if inBounds(mapa, (x + mov[0], y + mov[1])):  
-                if (x + mov[0], y + mov[1]) not in visited:
-
-                    if (x + mov[0], y + mov[1]) in xVisit:
-                        xVisit.remove((x + mov[0], y + mov[1]))
-
-                    xVisit.append((x + mov[0], y + mov[1]))
-                    get_back = False
 
 
-        if get_back:
-            
-            while len(prev) > 0 and len(xVisit) > 0 and not isNeighbor(prev[-1], xVisit[-1]):
-                camino[prev[-1][0]][prev[-1][1]] = 0
-                prev.pop()
-                steps -= 1
-
-            if len(prev) > 0: # isNeighbor
-                camino[x][y] = 0
-                steps -= 1
-            
-        else:     
-            prev.append((x, y))
+def ramificacion_y_poda(steps: int, ini: tuple):
+    global success, camino_poda, mejor_camino, best
     
-    return camino
-
-
-
-def ramificacion_y_poda(mapa : list, target: tuple):
-    visited = set()
-    xVisit = [(0, 0)]
-    prev = []
-
-    camino = [[0 for i in range(len(mapa[0]))] for j in range(len(mapa))]
-    mejorRuta = [[0 for i in range(len(mapa[0]))] for j in range(len(mapa))]
+    k = 0 # Índice del movimiento
     
-    steps = 1
-    best = sys.maxsize
+    while True:
+        new_pos = (ini[0] + movimientos[k][0], ini[1] + movimientos[k][1])
 
-    while len(xVisit) > 0:
-        x, y = xVisit.pop()
-        visited.add((x, y))
+        if inBounds(new_pos, camino_poda) and steps < best:
+            camino_poda[new_pos[0]][new_pos[1]] = steps
 
-        camino[x][y] = steps
-        steps += 1
-
-        if steps == best and (x, y) != target:
-            while len(prev) > 0 and len(xVisit) > 0 and not isNeighbor(prev[-1], xVisit[-1]):
-                camino[prev[-1][0]][prev[-1][1]] = 0
-                prev.pop()
-                steps -= 1
-
-            if len(prev) > 0: # isNeighbor
-                camino[x][y] = 0
-                steps -= 1
+            if camino_poda[target[0]][target[1]] == 0:
+                ramificacion_y_poda(steps + 1, new_pos)
+                
+                camino_poda[new_pos[0]][new_pos[1]] = 0
             
-            continue
-
-        if (x, y) == target: 
-            best = steps
-            mejorRuta = copy.deepcopy(camino)
-            visited.clear()
-            
-            while len(prev) > 0 and len(xVisit) > 0 and not isNeighbor(prev[-1], xVisit[-1]):
-                camino[prev[-1][0]][prev[-1][1]] = 0
-                prev.pop()
-                steps -= 1
-
-            if len(prev) > 0: # isNeighbor
-                camino[x][y] = 0
-                steps -= 1
-
-            continue
-
-
-        get_back = True
-        for mov in movimientos:
-            if inBounds(mapa, (x + mov[0], y + mov[1])):  
-                if (x + mov[0], y + mov[1]) not in visited and camino[x + mov[0]][y + mov[1]] == 0:
+            else:
+                if best > steps:
+                    mejor_camino = copy.deepcopy(camino_poda)
+                    best = steps
                     
-                   # if (x + mov[0], y + mov[1]) in xVisit:
-                      #  xVisit.remove((x + mov[0], y + mov[1]))
-
-                    xVisit.append((x + mov[0], y + mov[1]))
-                    get_back = False
-
-
-        if get_back:
-
-            while len(prev) > 0 and len(xVisit) > 0 and not isNeighbor(prev[-1], xVisit[-1]):
-                camino[prev[-1][0]][prev[-1][1]] = 0
-                prev.pop()
-                steps -= 1
-
-            if len(prev) > 0: # isNeighbor
-                camino[x][y] = 0
-                steps -= 1
-            
-        else:     
-            prev.append((x, y))
+                    camino_poda[target[0]][target[1]] = 0
         
-    return mejorRuta
+        k += 1
+        
+        if k > 3:
+            break

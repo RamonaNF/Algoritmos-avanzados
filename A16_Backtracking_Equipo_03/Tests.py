@@ -5,12 +5,13 @@
 
   Creación: 10 de septiembre del 2023
   
-  Descripción: Archivo de prueba para -------------------------.
+  Descripción: Archivo de prueba para resolver un laberinto
+               con backtracking vs ramificación y poda.
   
 """
 import sys
-from Maze import back_tracking as maze_solver1
-from Maze import ramificacion_y_poda as maze_solver2
+
+from Maze import maze_solver
 
 n = 0
 m = 0
@@ -18,7 +19,7 @@ i = 0
 mapa = []
 flag = False
 
-with open("inputs/input7.txt", 'r') as maze:
+with open("inputs/input3.txt", 'r') as maze:
 
     for linea in maze:
         if not flag:
@@ -67,14 +68,20 @@ for row in mapa:
     print()
 
 
-camino = maze_solver1(mapa, (len(mapa) - 1, len(mapa[0]) - 1))
-print("\n--- Solución Backtracking ---")
+backtracking, ramificacion_y_poda = maze_solver(mapa, (len(mapa) - 1, len(mapa[0]) - 1))
 
-if camino[n - 1][m - 1] == 0:
+if backtracking[n - 1][m - 1] == 0:
     print("No hay camino")
     sys.exit(1)
 
-for row in camino:
+
+print("\n--- Solución Backtracking ---")
+
+if backtracking[n - 1][m - 1] == 0:
+    print("No hay camino", backtracking)
+    sys.exit(1)
+
+for row in backtracking:
     for col in row:
         if col // 10 > 0:
             print(col, end= " ")
@@ -83,14 +90,9 @@ for row in camino:
     print()
 
 
-camino = maze_solver2(mapa, (len(mapa) - 1, len(mapa[0]) - 1))
 print("\n--- Solución Ramificacion y Poda ---")
 
-if camino[n - 1][m - 1] == 0:
-    print("No hay camino", camino)
-    sys.exit(1)
-
-for row in camino:
+for row in ramificacion_y_poda:
     for col in row:
         if col // 10 > 0:
             print(col, end= " ")
