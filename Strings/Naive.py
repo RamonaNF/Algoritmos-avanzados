@@ -6,12 +6,9 @@
                                   n: longitud de la cadena a buscar
   
 """
-from time import time
 
 def naive_matching(text: str, pattern: str):
   iterations = 0
-  start_timer = time()
-  
   coincidences = []
   candidates = len(text) - len(pattern) + 1
 
@@ -28,6 +25,4 @@ def naive_matching(text: str, pattern: str):
     if coincidence:
       coincidences.append(i)
 
-  end_time = time() - start_timer
-
-  return iterations, coincidences, end_time
+  return iterations, coincidences
