@@ -10,7 +10,6 @@ import numpy as np
 
 # Longest Prefix Suffix
 def lps(pattern: str) -> list:
-  #"""
   pi = [0] * len(pattern)
 
   for i in range (1, len(pattern)):
