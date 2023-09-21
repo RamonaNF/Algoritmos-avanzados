@@ -1,0 +1,7 @@
+
+Linux es un sistema operativo open source gratuito
+que se lanza en virtud de la Licencia Pública General de GNU
+(GPL). Cualquier persona puede ejecutar, estudiar,
+modificar o redistribuir el código fuente, e incluso
+comercializar las copias de su código modificado, siempre
+y cuando lo haga con la misma licencia.
