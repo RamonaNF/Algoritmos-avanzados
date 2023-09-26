@@ -24,7 +24,27 @@ def lps(pattern: str) -> list:
 
 
 def kmp(text: str, pattern: str):
-  pass
+  pi = lps(pattern)
+  i = 0
+  j = 0
+
+  coincidences = []
+  
+  while i < len(text):
+    # Si j está dentro de los límites del patrón y coinciden
+    if j < len(pattern) and text[i] == pattern[j]:   
+      j += 1 
+      
+      if j == len(pattern): # Se encontró una coincidencia
+        coincidences.append(i - j)
+
+    elif j > 0: # Si j supera los límites del patrón o no hay coincidencia
+        j = pi[j - 1] # Accedemos al valor del LPS anterior al fallo
+        i -= 1 # Evitamos avanzar en el texto
+    
+    i += 1
+
+  return coincidences
 
 
-print(lps("10010001"))
+

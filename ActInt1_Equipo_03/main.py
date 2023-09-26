@@ -1,7 +1,6 @@
 import os
 import re
 
-
 # Directorio del codigo malicioso
 m_directory = "./Mcode"
 
