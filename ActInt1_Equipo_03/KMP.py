@@ -37,7 +37,7 @@ def kmp(text: str, pattern: str):
       
       if j == len(pattern): # Se encontró una coincidencia
         coincidences.append(i - j)
-
+        
     elif j > 0: # Si j supera los límites del patrón o no hay coincidencia
         j = pi[j - 1] # Accedemos al valor del LPS anterior al fallo
         i -= 1 # Evitamos avanzar en el texto
@@ -45,6 +45,3 @@ def kmp(text: str, pattern: str):
     i += 1
 
   return coincidences
-
-
-

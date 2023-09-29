@@ -1,3 +1,5 @@
+from Manacher import Manacher
+from KMP import kmp 
 import os
 import re
 
@@ -36,4 +38,31 @@ for t_file in os.listdir(t_directory): # Almacenando todas las transmiciones
                 
             transmission.append(string)
 
+i = 0
+for t in transmission:
+    i += 1
+    with open ("out" + str(i) + ".txt", 'w') as out:
+        for m in malicious:
+            coincidences = kmp(t, m)
 
+            if len(coincidences) > 0:
+                out.write("true " + str(coincidences[0]))
+            
+            else:
+                out.write("false")
+            
+            out.write("\n")
+        
+        for m in malicious:
+            palindrome = Manacher(m)
+
+            if len(palindrome) > 1:
+                out.write(palindrome)
+            
+            else:
+                out.write("No hay")
+            
+            out.write("\n")
+
+
+                
