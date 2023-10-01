@@ -1,7 +1,7 @@
+from Longest_substr import longest_substr
 from Manacher import Manacher
 from KMP import kmp 
 import os
-import re
 
 # Directorio del codigo malicioso
 m_directory = "./Mcode0"
@@ -63,7 +63,7 @@ with open ("output0.txt", 'w') as out:
                     out.write("(true) ")
                     out.write("Posición inicial: " + str(c) + " ")
                     out.write("Posición final: " + str(c + len(m) - 1) + "\n")
-                    out.write("PRUEBA " + t[c:c+len(m)] + "\n") # ESTA LÍNEA ES PARA VALIDAR
+                    #out.write("PRUEBA " + t[c:c+len(m)] + "\n") # ESTA LÍNEA ES PARA VALIDAR
             
             else:
                 out.write("(false) Cadena no encontrada en la transmisión" + "\n")
@@ -75,8 +75,8 @@ with open ("output0.txt", 'w') as out:
         (palindrome, index) = Manacher(t)
 
         if len(palindrome) > 1:
-            out.write(palindrome + "\n")
-            out.write("PRUEBA " + t[index:index+len(palindrome)] + "\n") # ESTA LÍNEA ES PARA VALIDAR
+            out.write("Codigo espejeado: " + palindrome + "\n")
+            #out.write("PRUEBA " + t[index:index+len(palindrome)] + "\n") # ESTA LÍNEA ES PARA VALIDAR
             out.write("Posición inicial: " + str(index) + " ")
             out.write("Posición final: " + str(index + len(palindrome) - 1) + "\n\n")
         
@@ -87,5 +87,9 @@ with open ("output0.txt", 'w') as out:
         for tr_index, tr in enumerate(transmission):
             if tr_index != t_index:
                 out.write("transmission " + str(tr_index + 1) + "\n")
-                # Substring común más largo
-                out.write("No se encontraron coincidencias\n\n")
+                
+                substr = longest_substr(t, tr)
+                if substr == " ":
+                    out.write("No se encontraron coincidencias\n\n")
+                else:
+                    out.write("Substring más largo: " + substr + "\n\n")

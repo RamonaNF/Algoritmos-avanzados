@@ -170,47 +170,46 @@ mcode 21
 (false) Cadena no encontrada en la transmisión
 
 5AA5
-PRUEBA 5AA5
 Posición inicial: 15 Posición final: 18
 
 transmission 2
-No se encontraron coincidencias
+Substring más largo: A
 
 transmission 3
-No se encontraron coincidencias
+Substring más largo: EDG5A9C3D1F491A5
 
 transmission 4
-No se encontraron coincidencias
+Substring más largo: 24
 
 transmission 5
-No se encontraron coincidencias
+Substring más largo: 21
 
 transmission 6
-No se encontraron coincidencias
+Substring más largo: 1
 
 transmission 7
-No se encontraron coincidencias
+Substring más largo: 2
 
 transmission 8
-No se encontraron coincidencias
+Substring más largo: 249
 
 transmission 9
-No se encontraron coincidencias
+Substring más largo: C
 
 transmission 10
-No se encontraron coincidencias
+Substring más largo: 249
 
 transmission 11
-No se encontraron coincidencias
+Substring más largo: AA
 
 transmission 12
-No se encontraron coincidencias
+Substring más largo: 6
 
 transmission 13
-No se encontraron coincidencias
+Substring más largo: 1D
 
 transmission 14
-No se encontraron coincidencias
+Substring más largo: 6
 
 
  T R A N S M I S S I O N 2
@@ -253,7 +252,6 @@ mcode 12
 
 mcode 13
 (true) Posición inicial: 13 Posición final: 17
-PRUEBA Estas
 
 mcode 14
 (false) Cadena no encontrada en la transmisión
@@ -275,53 +273,51 @@ mcode 19
 
 mcode 20
 (true) Posición inicial: 0 Posición final: 3
-PRUEBA Hola
 
 mcode 21
 (false) Cadena no encontrada en la transmisión
 
 oCo
-PRUEBA oCo
 Posición inicial: 8 Posición final: 10
 
 transmission 1
-No se encontraron coincidencias
+Substring más largo: E
 
 transmission 3
-No se encontraron coincidencias
+Substring más largo: A
 
 transmission 4
-No se encontraron coincidencias
+Substring más largo: a
 
 transmission 5
-No se encontraron coincidencias
+Substring más largo: a
 
 transmission 6
-No se encontraron coincidencias
+Substring más largo: m
 
 transmission 7
-No se encontraron coincidencias
+Substring más largo: m
 
 transmission 8
-No se encontraron coincidencias
+Substring más largo: a
 
 transmission 9
-No se encontraron coincidencias
+Substring más largo: ComoEstas
 
 transmission 10
-No se encontraron coincidencias
+Substring más largo: a
 
 transmission 11
-No se encontraron coincidencias
+Substring más largo: A
 
 transmission 12
-No se encontraron coincidencias
+Substring más largo: a
 
 transmission 13
-No se encontraron coincidencias
+Substring más largo: C
 
 transmission 14
-No se encontraron coincidencias
+Substring más largo: a
 
 
  T R A N S M I S S I O N 3
@@ -376,7 +372,6 @@ mcode 16
 
 mcode 17
 (true) Posición inicial: 32 Posición final: 36
-PRUEBA 8C20A
 
 mcode 18
 (false) Cadena no encontrada en la transmisión
@@ -391,47 +386,46 @@ mcode 21
 (false) Cadena no encontrada en la transmisión
 
 E1E
-PRUEBA E1E
 Posición inicial: 14 Posición final: 16
 
 transmission 1
-No se encontraron coincidencias
+Substring más largo: EDG5A9C3D1F491A5
 
 transmission 2
-No se encontraron coincidencias
+Substring más largo: A
 
 transmission 4
-No se encontraron coincidencias
+Substring más largo: 5
 
 transmission 5
-No se encontraron coincidencias
+Substring más largo: 56
 
 transmission 6
-No se encontraron coincidencias
+Substring más largo: 1
 
 transmission 7
-No se encontraron coincidencias
+Substring más largo: 2
 
 transmission 8
-No se encontraron coincidencias
+Substring más largo: 864
 
 transmission 9
-No se encontraron coincidencias
+Substring más largo: C
 
 transmission 10
-No se encontraron coincidencias
+Substring más largo: 864
 
 transmission 11
-No se encontraron coincidencias
+Substring más largo: 23
 
 transmission 12
-No se encontraron coincidencias
+Substring más largo: 20
 
 transmission 13
-No se encontraron coincidencias
+Substring más largo: A56
 
 transmission 14
-No se encontraron coincidencias
+Substring más largo: 20
 
 
  T R A N S M I S S I O N 4
@@ -441,7 +435,6 @@ mcode 1
 
 mcode 2
 (true) Posición inicial: 34 Posición final: 42
-PRUEBA aerdcccbb
 
 mcode 3
 (false) Cadena no encontrada en la transmisión
@@ -451,13 +444,9 @@ mcode 4
 
 mcode 5
 (true) Posición inicial: 41 Posición final: 42
-PRUEBA bb
 (true) Posición inicial: 42 Posición final: 43
-PRUEBA bb
 (true) Posición inicial: 43 Posición final: 44
-PRUEBA bb
 (true) Posición inicial: 72 Posición final: 73
-PRUEBA bb
 
 mcode 6
 (false) Cadena no encontrada en la transmisión
@@ -508,47 +497,46 @@ mcode 21
 (false) Cadena no encontrada en la transmisión
 
 aerdcccbbbbcccdrea
-PRUEBA aerdcccbbbbcccdrea
 Posición inicial: 34 Posición final: 51
 
 transmission 1
-No se encontraron coincidencias
+Substring más largo: 24
 
 transmission 2
-No se encontraron coincidencias
+Substring más largo: a
 
 transmission 3
-No se encontraron coincidencias
+Substring más largo: 8
 
 transmission 5
-No se encontraron coincidencias
+Substring más largo: aerdcccbb
 
 transmission 6
-No se encontraron coincidencias
+Substring más largo: de
 
 transmission 7
-No se encontraron coincidencias
+Substring más largo: de
 
 transmission 8
-No se encontraron coincidencias
+Substring más largo: 24a
 
 transmission 9
-No se encontraron coincidencias
+Substring más largo: a
 
 transmission 10
-No se encontraron coincidencias
+Substring más largo: ebb
 
 transmission 11
-No se encontraron coincidencias
+Substring más largo: 2
 
 transmission 12
-No se encontraron coincidencias
+Substring más largo: 7
 
 transmission 13
-No se encontraron coincidencias
+Substring más largo: 76
 
 transmission 14
-No se encontraron coincidencias
+Substring más largo: 7
 
 
  T R A N S M I S S I O N 5
@@ -558,7 +546,6 @@ mcode 1
 
 mcode 2
 (true) Posición inicial: 0 Posición final: 8
-PRUEBA aerdcccbb
 
 mcode 3
 (false) Cadena no encontrada en la transmisión
@@ -568,7 +555,6 @@ mcode 4
 
 mcode 5
 (true) Posición inicial: 7 Posición final: 8
-PRUEBA bb
 
 mcode 6
 (false) Cadena no encontrada en la transmisión
@@ -619,47 +605,46 @@ mcode 21
 (false) Cadena no encontrada en la transmisión
 
 777c777
-PRUEBA 777c777
 Posición inicial: 32 Posición final: 38
 
 transmission 1
-No se encontraron coincidencias
+Substring más largo: 21
 
 transmission 2
-No se encontraron coincidencias
+Substring más largo: a
 
 transmission 3
-No se encontraron coincidencias
+Substring más largo: 56
 
 transmission 4
-No se encontraron coincidencias
+Substring más largo: aerdcccbb
 
 transmission 6
-No se encontraron coincidencias
+Substring más largo: c
 
 transmission 7
-No se encontraron coincidencias
+Substring más largo: c
 
 transmission 8
-No se encontraron coincidencias
+Substring más largo: 687
 
 transmission 9
-No se encontraron coincidencias
+Substring más largo: a
 
 transmission 10
-No se encontraron coincidencias
+Substring más largo: 66
 
 transmission 11
-No se encontraron coincidencias
+Substring más largo: 11
 
 transmission 12
-No se encontraron coincidencias
+Substring más largo: 65
 
 transmission 13
-No se encontraron coincidencias
+Substring más largo: 567
 
 transmission 14
-No se encontraron coincidencias
+Substring más largo: 65
 
 
  T R A N S M I S S I O N 6
@@ -708,7 +693,6 @@ mcode 14
 
 mcode 15
 (true) Posición inicial: 0 Posición final: 5
-PRUEBA mcode1
 
 mcode 16
 (false) Cadena no encontrada en la transmisión
@@ -729,47 +713,46 @@ mcode 21
 (false) Cadena no encontrada en la transmisión
 
 mcode1edocm
-PRUEBA mcode1edocm
 Posición inicial: 0 Posición final: 10
 
 transmission 1
-No se encontraron coincidencias
+Substring más largo: 1
 
 transmission 2
-No se encontraron coincidencias
+Substring más largo: o
 
 transmission 3
-No se encontraron coincidencias
+Substring más largo: 1
 
 transmission 4
-No se encontraron coincidencias
+Substring más largo: de
 
 transmission 5
-No se encontraron coincidencias
+Substring más largo: e
 
 transmission 7
-No se encontraron coincidencias
+Substring más largo: mcode
 
 transmission 8
-No se encontraron coincidencias
+Substring más largo: ed
 
 transmission 9
-No se encontraron coincidencias
+Substring más largo: o
 
 transmission 10
-No se encontraron coincidencias
+Substring más largo: d
 
 transmission 11
-No se encontraron coincidencias
+Substring más largo: 1
 
 transmission 12
-No se encontraron coincidencias
+Substring más largo: 1
 
 transmission 13
-No se encontraron coincidencias
+Substring más largo: 1
 
 transmission 14
-No se encontraron coincidencias
+Substring más largo: 1
 
 
  T R A N S M I S S I O N 7
@@ -800,7 +783,6 @@ mcode 8
 
 mcode 9
 (true) Posición inicial: 0 Posición final: 5
-PRUEBA mcode2
 
 mcode 10
 (false) Cadena no encontrada en la transmisión
@@ -822,7 +804,6 @@ mcode 15
 
 mcode 16
 (true) Posición inicial: 6 Posición final: 11
-PRUEBA mcode3
 
 mcode 17
 (false) Cadena no encontrada en la transmisión
@@ -840,47 +821,46 @@ mcode 21
 (false) Cadena no encontrada en la transmisión
 
 mcode3edocm
-PRUEBA mcode3edocm
 Posición inicial: 6 Posición final: 16
 
 transmission 1
-No se encontraron coincidencias
+Substring más largo: 3
 
 transmission 2
-No se encontraron coincidencias
+Substring más largo: o
 
 transmission 3
-No se encontraron coincidencias
+Substring más largo: 3
 
 transmission 4
-No se encontraron coincidencias
+Substring más largo: de
 
 transmission 5
-No se encontraron coincidencias
+Substring más largo: e
 
 transmission 6
-No se encontraron coincidencias
+Substring más largo: mcode
 
 transmission 8
-No se encontraron coincidencias
+Substring más largo: ed
 
 transmission 9
-No se encontraron coincidencias
+Substring más largo: o
 
 transmission 10
-No se encontraron coincidencias
+Substring más largo: 2
 
 transmission 11
-No se encontraron coincidencias
+Substring más largo: 2
 
 transmission 12
-No se encontraron coincidencias
+Substring más largo: e2
 
 transmission 13
-No se encontraron coincidencias
+Substring más largo: 2
 
 transmission 14
-No se encontraron coincidencias
+Substring más largo: e2
 
 
  T R A N S M I S S I O N 8
@@ -899,9 +879,7 @@ mcode 4
 
 mcode 5
 (true) Posición inicial: 63 Posición final: 64
-PRUEBA bb
 (true) Posición inicial: 64 Posición final: 65
-PRUEBA bb
 
 mcode 6
 (false) Cadena no encontrada en la transmisión
@@ -920,7 +898,6 @@ mcode 10
 
 mcode 11
 (true) Posición inicial: 71 Posición final: 102
-PRUEBA 2b8a0c513b8e9b927170c2497864dfb6
 
 mcode 12
 (false) Cadena no encontrada en la transmisión
@@ -953,47 +930,46 @@ mcode 21
 (false) Cadena no encontrada en la transmisión
 
 0909090
-PRUEBA 0909090
 Posición inicial: 0 Posición final: 6
 
 transmission 1
-No se encontraron coincidencias
+Substring más largo: 249
 
 transmission 2
-No se encontraron coincidencias
+Substring más largo: a
 
 transmission 3
-No se encontraron coincidencias
+Substring más largo: 864
 
 transmission 4
-No se encontraron coincidencias
+Substring más largo: 24a
 
 transmission 5
-No se encontraron coincidencias
+Substring más largo: 687
 
 transmission 6
-No se encontraron coincidencias
+Substring más largo: ed
 
 transmission 7
-No se encontraron coincidencias
+Substring más largo: ed
 
 transmission 9
-No se encontraron coincidencias
+Substring más largo: a
 
 transmission 10
-No se encontraron coincidencias
+Substring más largo: 42d9668dac527452c8891c0ebbbe8b3d2
 
 transmission 11
-No se encontraron coincidencias
+Substring más largo: 45
 
 transmission 12
-No se encontraron coincidencias
+Substring más largo: 271
 
 transmission 13
-No se encontraron coincidencias
+Substring más largo: 09
 
 transmission 14
-No se encontraron coincidencias
+Substring más largo: 271
 
 
  T R A N S M I S S I O N 9
@@ -1036,7 +1012,6 @@ mcode 12
 
 mcode 13
 (true) Posición inicial: 8 Posición final: 12
-PRUEBA Estas
 
 mcode 14
 (false) Cadena no encontrada en la transmisión
@@ -1058,53 +1033,51 @@ mcode 19
 
 mcode 20
 (true) Posición inicial: 0 Posición final: 3
-PRUEBA Hola
 
 mcode 21
 (false) Cadena no encontrada en la transmisión
 
 omo
-PRUEBA omo
 Posición inicial: 5 Posición final: 7
 
 transmission 1
-No se encontraron coincidencias
+Substring más largo: E
 
 transmission 2
-No se encontraron coincidencias
+Substring más largo: ComoEstas
 
 transmission 3
-No se encontraron coincidencias
+Substring más largo: E
 
 transmission 4
-No se encontraron coincidencias
+Substring más largo: a
 
 transmission 5
-No se encontraron coincidencias
+Substring más largo: a
 
 transmission 6
-No se encontraron coincidencias
+Substring más largo: m
 
 transmission 7
-No se encontraron coincidencias
+Substring más largo: m
 
 transmission 8
-No se encontraron coincidencias
+Substring más largo: a
 
 transmission 10
-No se encontraron coincidencias
+Substring más largo: a
 
 transmission 11
-No se encontraron coincidencias
+Substring más largo: C
 
 transmission 12
-No se encontraron coincidencias
+Substring más largo: a
 
 transmission 13
-No se encontraron coincidencias
+Substring más largo: C
 
 transmission 14
-No se encontraron coincidencias
+Substring más largo: a
 
 
  T R A N S M I S S I O N 10
@@ -1123,17 +1096,11 @@ mcode 4
 
 mcode 5
 (true) Posición inicial: 24 Posición final: 25
-PRUEBA bb
 (true) Posición inicial: 25 Posición final: 26
-PRUEBA bb
 (true) Posición inicial: 111 Posición final: 112
-PRUEBA bb
 (true) Posición inicial: 112 Posición final: 113
-PRUEBA bb
 (true) Posición inicial: 160 Posición final: 161
-PRUEBA bb
 (true) Posición inicial: 161 Posición final: 162
-PRUEBA bb
 
 mcode 6
 (false) Cadena no encontrada en la transmisión
@@ -1184,47 +1151,46 @@ mcode 21
 (false) Cadena no encontrada en la transmisión
 
 0909090
-PRUEBA 0909090
 Posición inicial: 48 Posición final: 54
 
 transmission 1
-No se encontraron coincidencias
+Substring más largo: 249
 
 transmission 2
-No se encontraron coincidencias
+Substring más largo: a
 
 transmission 3
-No se encontraron coincidencias
+Substring más largo: 864
 
 transmission 4
-No se encontraron coincidencias
+Substring más largo: bbb
 
 transmission 5
-No se encontraron coincidencias
+Substring más largo: dc
 
 transmission 6
-No se encontraron coincidencias
+Substring más largo: c
 
 transmission 7
-No se encontraron coincidencias
+Substring más largo: c
 
 transmission 8
-No se encontraron coincidencias
+Substring más largo: 42d9668dac527452c8891c0ebbbe8b3d2
 
 transmission 9
-No se encontraron coincidencias
+Substring más largo: a
 
 transmission 11
-No se encontraron coincidencias
+Substring más largo: 11
 
 transmission 12
-No se encontraron coincidencias
+Substring más largo: 271
 
 transmission 13
-No se encontraron coincidencias
+Substring más largo: 09
 
 transmission 14
-No se encontraron coincidencias
+Substring más largo: 271
 
 
  T R A N S M I S S I O N 11
@@ -1293,47 +1259,46 @@ mcode 21
 (false) Cadena no encontrada en la transmisión
 
 111
-PRUEBA 111
 Posición inicial: 10 Posición final: 12
 
 transmission 1
-No se encontraron coincidencias
+Substring más largo: 1A
 
 transmission 2
-No se encontraron coincidencias
+Substring más largo: A
 
 transmission 3
-No se encontraron coincidencias
+Substring más largo: 5D
 
 transmission 4
-No se encontraron coincidencias
+Substring más largo: 5
 
 transmission 5
-No se encontraron coincidencias
+Substring más largo: 11
 
 transmission 6
-No se encontraron coincidencias
+Substring más largo: 1
 
 transmission 7
-No se encontraron coincidencias
+Substring más largo: 2
 
 transmission 8
-No se encontraron coincidencias
+Substring más largo: 09
 
 transmission 9
-No se encontraron coincidencias
+Substring más largo: C
 
 transmission 10
-No se encontraron coincidencias
+Substring más largo: 45
 
 transmission 12
-No se encontraron coincidencias
+Substring más largo: 0
 
 transmission 13
-No se encontraron coincidencias
+Substring más largo: ABCDEF12345
 
 transmission 14
-No se encontraron coincidencias
+Substring más largo: 0
 
 
  T R A N S M I S S I O N 12
@@ -1400,50 +1365,48 @@ mcode 20
 
 mcode 21
 (true) Posición inicial: 17 Posición final: 21
-PRUEBA 17271
 
 6e6172716e6
-PRUEBA 6e6172716e6
 Posición inicial: 14 Posición final: 24
 
 transmission 1
-No se encontraron coincidencias
+Substring más largo: 5
 
 transmission 2
-No se encontraron coincidencias
+Substring más largo: a
 
 transmission 3
-No se encontraron coincidencias
+Substring más largo: 20
 
 transmission 4
-No se encontraron coincidencias
+Substring más largo: e
 
 transmission 5
-No se encontraron coincidencias
+Substring más largo: a6
 
 transmission 6
-No se encontraron coincidencias
+Substring más largo: e
 
 transmission 7
-No se encontraron coincidencias
+Substring más largo: e2
 
 transmission 8
-No se encontraron coincidencias
+Substring más largo: 271
 
 transmission 9
-No se encontraron coincidencias
+Substring más largo: a
 
 transmission 10
-No se encontraron coincidencias
+Substring más largo: 726
 
 transmission 11
-No se encontraron coincidencias
+Substring más largo: 1
 
 transmission 13
-No se encontraron coincidencias
+Substring más largo: 17
 
 transmission 14
-No se encontraron coincidencias
+Substring más largo: 70616e206465206e6172716e6a61
 
 
  T R A N S M I S S I O N 13
@@ -1501,7 +1464,6 @@ mcode 17
 
 mcode 18
 (true) Posición inicial: 6 Posición final: 9
-PRUEBA A567
 
 mcode 19
 (false) Cadena no encontrada en la transmisión
@@ -1513,47 +1475,46 @@ mcode 21
 (false) Cadena no encontrada en la transmisión
 
 111
-PRUEBA 111
 Posición inicial: 21 Posición final: 23
 
 transmission 1
-No se encontraron coincidencias
+Substring más largo: 5A
 
 transmission 2
-No se encontraron coincidencias
+Substring más largo: A
 
 transmission 3
-No se encontraron coincidencias
+Substring más largo: A56
 
 transmission 4
-No se encontraron coincidencias
+Substring más largo: 76
 
 transmission 5
-No se encontraron coincidencias
+Substring más largo: 567
 
 transmission 6
-No se encontraron coincidencias
+Substring más largo: 1
 
 transmission 7
-No se encontraron coincidencias
+Substring más largo: 2
 
 transmission 8
-No se encontraron coincidencias
+Substring más largo: 09
 
 transmission 9
-No se encontraron coincidencias
+Substring más largo: C
 
 transmission 10
-No se encontraron coincidencias
+Substring más largo: 45
 
 transmission 11
-No se encontraron coincidencias
+Substring más largo: ABCDEF12345
 
 transmission 12
-No se encontraron coincidencias
+Substring más largo: 65
 
 transmission 14
-No se encontraron coincidencias
+Substring más largo: 65
 
 
  T R A N S M I S S I O N 14
@@ -1620,58 +1581,51 @@ mcode 20
 
 mcode 21
 (true) Posición inicial: 17 Posición final: 21
-PRUEBA 17271
 (true) Posición inicial: 45 Posición final: 49
-PRUEBA 17271
 (true) Posición inicial: 73 Posición final: 77
-PRUEBA 17271
 (true) Posición inicial: 101 Posición final: 105
-PRUEBA 17271
 (true) Posición inicial: 129 Posición final: 133
-PRUEBA 17271
 (true) Posición inicial: 157 Posición final: 161
-PRUEBA 17271
 
 6e6172716e6
-PRUEBA 6e6172716e6
 Posición inicial: 14 Posición final: 24
 
 transmission 1
-No se encontraron coincidencias
+Substring más largo: 5
 
 transmission 2
-No se encontraron coincidencias
+Substring más largo: a
 
 transmission 3
-No se encontraron coincidencias
+Substring más largo: 20
 
 transmission 4
-No se encontraron coincidencias
+Substring más largo: e
 
 transmission 5
-No se encontraron coincidencias
+Substring más largo: a6
 
 transmission 6
-No se encontraron coincidencias
+Substring más largo: e
 
 transmission 7
-No se encontraron coincidencias
+Substring más largo: e2
 
 transmission 8
-No se encontraron coincidencias
+Substring más largo: 271
 
 transmission 9
-No se encontraron coincidencias
+Substring más largo: a
 
 transmission 10
-No se encontraron coincidencias
+Substring más largo: 271
 
 transmission 11
-No se encontraron coincidencias
+Substring más largo: 1
 
 transmission 12
-No se encontraron coincidencias
+Substring más largo: 70616e206465206e6172716e6a61
 
 transmission 13
-No se encontraron coincidencias
+Substring más largo: 17
 
