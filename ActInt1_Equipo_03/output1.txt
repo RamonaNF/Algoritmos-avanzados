@@ -1,0 +1,39 @@
+
+Archivo de transmición 1
+70616e206465206e6172716e6a6170616e206465206e6172716e6a6170616e206465206e6172716e6a6170616e206465206e6172716e6a6170616e206465206e6172716e6a6170616e206465206e6172716e6a61
+
+Archivo mcode1
+737
+
+Archivo mcode2
+16e61
+
+Archivo mcode3
+17271
+
+ T R A N S M I S S I O N 1
+
+mcode 1
+(false) Cadena no encontrada en la transmisión
+
+mcode 2
+(false) Cadena no encontrada en la transmisión
+
+mcode 3
+(true) Posición inicial: 17 Posición final: 21
+PRUEBA 17271
+(true) Posición inicial: 45 Posición final: 49
+PRUEBA 17271
+(true) Posición inicial: 73 Posición final: 77
+PRUEBA 17271
+(true) Posición inicial: 101 Posición final: 105
+PRUEBA 17271
+(true) Posición inicial: 129 Posición final: 133
+PRUEBA 17271
+(true) Posición inicial: 157 Posición final: 161
+PRUEBA 17271
+
+6e6172716e6
+PRUEBA 6e6172716e6
+Posición inicial: 14 Posición final: 24
+

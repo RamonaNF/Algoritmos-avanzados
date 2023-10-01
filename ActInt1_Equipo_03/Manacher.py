@@ -25,7 +25,7 @@ def Manacher(text : str) -> str:
   for i in range(1, len(mutated) - 1):
 
     p[i] = 1
-
+    
     if leftbound < i < rightbound:
       mirror = c - (i - c)
       p[i] = min(p[mirror], rightbound - i)
@@ -54,6 +54,10 @@ def Manacher(text : str) -> str:
   for i in range(m_index - m_val + 1, m_index + m_val):
     if mutated[i] != '#':
       palindrome += mutated[i]
-      
 
-  return palindrome
+  index = 0
+  for i in range(0, m_index - m_val + 1):
+    if mutated[i] != '#' and mutated[i] != '@' and mutated[i] != '$':
+      index += 1
+  
+  return (palindrome, index)

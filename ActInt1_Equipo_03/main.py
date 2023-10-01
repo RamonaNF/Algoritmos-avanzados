@@ -4,10 +4,10 @@ import os
 import re
 
 # Directorio del codigo malicioso
-m_directory = "./Mcode"
+m_directory = "./Mcode0"
 
 # Directorio de las transmiciones
-t_directory = "./Transmissions"
+t_directory = "./Transmissions0"
 
 transmission = []
 malicious = []
@@ -38,31 +38,54 @@ for t_file in os.listdir(t_directory): # Almacenando todas las transmiciones
                 
             transmission.append(string)
 
-i = 0
-for t in transmission:
-    i += 1
-    with open ("out" + str(i) + ".txt", 'w') as out:
-        for m in malicious:
+
+with open ("output0.txt", 'w') as out:
+    for t_index, t in enumerate(transmission):
+        out.write("\nArchivo de transmición " + str(t_index + 1) + "\n")
+        out.write(t + "\n")
+
+
+    for m_index, m in enumerate(malicious):
+        out.write("\nArchivo mcode" + str(m_index + 1) + "\n")
+        out.write(m + "\n")
+    
+
+    for t_index, t in enumerate(transmission):
+        out.write("\n T R A N S M I S S I O N " + str(t_index + 1) + "\n\n")
+        
+
+        for m_index, m in enumerate(malicious):
+            out.write("mcode " + str(m_index + 1) + "\n")
             coincidences = kmp(t, m)
 
             if len(coincidences) > 0:
-                out.write("true " + str(coincidences[0]))
+                for c in coincidences:
+                    out.write("(true) ")
+                    out.write("Posición inicial: " + str(c) + " ")
+                    out.write("Posición final: " + str(c + len(m) - 1) + "\n")
+                    out.write("PRUEBA " + t[c:c+len(m)] + "\n") # ESTA LÍNEA ES PARA VALIDAR
             
             else:
-                out.write("false")
+                out.write("(false) Cadena no encontrada en la transmisión" + "\n")
             
             out.write("\n")
         
-        for m in malicious:
-            palindrome = Manacher(m)
-
-            if len(palindrome) > 1:
-                out.write(palindrome)
-            
-            else:
-                out.write("No hay")
-            
-            out.write("\n")
 
 
-                
+        (palindrome, index) = Manacher(t)
+
+        if len(palindrome) > 1:
+            out.write(palindrome + "\n")
+            out.write("PRUEBA " + t[index:index+len(palindrome)] + "\n") # ESTA LÍNEA ES PARA VALIDAR
+            out.write("Posición inicial: " + str(index) + " ")
+            out.write("Posición final: " + str(index + len(palindrome) - 1) + "\n\n")
+        
+        else:
+            out.write("No se encontró código espejeado en el archivo de transmisión\n\n")
+        
+
+        for tr_index, tr in enumerate(transmission):
+            if tr_index != t_index:
+                out.write("transmission " + str(tr_index + 1) + "\n")
+                # Substring común más largo
+                out.write("No se encontraron coincidencias\n\n")
