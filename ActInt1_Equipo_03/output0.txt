@@ -1,14 +1,107 @@
 
 Archivo de transmición 1
+EDG5A9C3D1F491A5AA5821DFCC9EEB24EDD6693AF249E
+
+Archivo de transmición 2
+HolaAmigoComoEstas
+
+Archivo de transmición 3
+085DFB93BB5DFAE1EDG5A9C3D1F491A58C20AFBA5236B1864EEF25DBCCA569
+
+Archivo de transmición 4
+e7578768eeee44424e7578768eeee44424aerdcccbbbbcccdreae7578768eeee4442435ebbcdddeffff
+
+Archivo de transmición 5
+aerdcccbb211a5a6665677be755e6f68777c777a
+
+Archivo de transmición 6
+mcode1edocm
+
+Archivo de transmición 7
+mcode2mcode3edocm
+
+Archivo de transmición 8
+090909029b8bfca9024ad3cb7020b331687ed9742d9668dac527452c8891c0ebbbe8b3d2b8a0c513b8e9b927170c2497864dfb6
+
+Archivo de transmición 9
+HolaComoEstas
+
+Archivo de transmición 10
+42d9668dac527452c8891c0ebbbe8b3ddb5dca0d63fa726a09090901160c68610afac06f2b8a0c513b8e9b942d9668dac527452c8891c0ebbbe8b3d27170c2497864dfb642d9668dac527452c8891c0ebbbe8b3d
+
+Archivo de transmición 11
+1234AACBDE111ABCDEF12345DC09
+
+Archivo de transmición 12
+70616e206465206e6172716e6a6150616e206465206e6172616e6a61
+
+Archivo de transmición 13
+1DC09EA567ABCDEF12345111765A
+
+Archivo de transmición 14
 70616e206465206e6172716e6a6170616e206465206e6172716e6a6170616e206465206e6172716e6a6170616e206465206e6172716e6a6170616e206465206e6172716e6a6170616e206465206e6172716e6a61
 
 Archivo mcode1
-737
+fffff34232aabc
 
 Archivo mcode2
-16e61
+aerdcccbb
 
 Archivo mcode3
+737
+
+Archivo mcode4
+A4321
+
+Archivo mcode5
+bb
+
+Archivo mcode6
+965ACC
+
+Archivo mcode7
+f6af065a70a4ddb4d5104fa4ecaecc54
+
+Archivo mcode8
+90CD1
+
+Archivo mcode9
+mcode2
+
+Archivo mcode10
+16e61
+
+Archivo mcode11
+2b8a0c513b8e9b927170c2497864dfb6
+
+Archivo mcode12
+A589EBFAE1EA25
+
+Archivo mcode13
+Estas
+
+Archivo mcode14
+ogimA
+
+Archivo mcode15
+mcode1
+
+Archivo mcode16
+mcode3
+
+Archivo mcode17
+8C20A
+
+Archivo mcode18
+A567
+
+Archivo mcode19
+a777
+
+Archivo mcode20
+Hola
+
+Archivo mcode21
 17271
 
  T R A N S M I S S I O N 1
@@ -20,6 +113,1473 @@ mcode 2
 (false) Cadena no encontrada en la transmisión
 
 mcode 3
+(false) Cadena no encontrada en la transmisión
+
+mcode 4
+(false) Cadena no encontrada en la transmisión
+
+mcode 5
+(false) Cadena no encontrada en la transmisión
+
+mcode 6
+(false) Cadena no encontrada en la transmisión
+
+mcode 7
+(false) Cadena no encontrada en la transmisión
+
+mcode 8
+(false) Cadena no encontrada en la transmisión
+
+mcode 9
+(false) Cadena no encontrada en la transmisión
+
+mcode 10
+(false) Cadena no encontrada en la transmisión
+
+mcode 11
+(false) Cadena no encontrada en la transmisión
+
+mcode 12
+(false) Cadena no encontrada en la transmisión
+
+mcode 13
+(false) Cadena no encontrada en la transmisión
+
+mcode 14
+(false) Cadena no encontrada en la transmisión
+
+mcode 15
+(false) Cadena no encontrada en la transmisión
+
+mcode 16
+(false) Cadena no encontrada en la transmisión
+
+mcode 17
+(false) Cadena no encontrada en la transmisión
+
+mcode 18
+(false) Cadena no encontrada en la transmisión
+
+mcode 19
+(false) Cadena no encontrada en la transmisión
+
+mcode 20
+(false) Cadena no encontrada en la transmisión
+
+mcode 21
+(false) Cadena no encontrada en la transmisión
+
+Codigo espejeado: 5AA5
+Posición inicial: 15 Posición final: 18
+
+transmission 2
+Substring más largo: A
+
+transmission 3
+Substring más largo: EDG5A9C3D1F491A5
+
+transmission 4
+Substring más largo: 24
+
+transmission 5
+Substring más largo: 21
+
+transmission 6
+Substring más largo: 1
+
+transmission 7
+Substring más largo: 2
+
+transmission 8
+Substring más largo: 249
+
+transmission 9
+Substring más largo: C
+
+transmission 10
+Substring más largo: 249
+
+transmission 11
+Substring más largo: AA
+
+transmission 12
+Substring más largo: 6
+
+transmission 13
+Substring más largo: 1D
+
+transmission 14
+Substring más largo: 6
+
+
+ T R A N S M I S S I O N 2
+
+mcode 1
+(false) Cadena no encontrada en la transmisión
+
+mcode 2
+(false) Cadena no encontrada en la transmisión
+
+mcode 3
+(false) Cadena no encontrada en la transmisión
+
+mcode 4
+(false) Cadena no encontrada en la transmisión
+
+mcode 5
+(false) Cadena no encontrada en la transmisión
+
+mcode 6
+(false) Cadena no encontrada en la transmisión
+
+mcode 7
+(false) Cadena no encontrada en la transmisión
+
+mcode 8
+(false) Cadena no encontrada en la transmisión
+
+mcode 9
+(false) Cadena no encontrada en la transmisión
+
+mcode 10
+(false) Cadena no encontrada en la transmisión
+
+mcode 11
+(false) Cadena no encontrada en la transmisión
+
+mcode 12
+(false) Cadena no encontrada en la transmisión
+
+mcode 13
+(true) Posición inicial: 13 Posición final: 17
+
+mcode 14
+(false) Cadena no encontrada en la transmisión
+
+mcode 15
+(false) Cadena no encontrada en la transmisión
+
+mcode 16
+(false) Cadena no encontrada en la transmisión
+
+mcode 17
+(false) Cadena no encontrada en la transmisión
+
+mcode 18
+(false) Cadena no encontrada en la transmisión
+
+mcode 19
+(false) Cadena no encontrada en la transmisión
+
+mcode 20
+(true) Posición inicial: 0 Posición final: 3
+
+mcode 21
+(false) Cadena no encontrada en la transmisión
+
+Codigo espejeado: oCo
+Posición inicial: 8 Posición final: 10
+
+transmission 1
+Substring más largo: E
+
+transmission 3
+Substring más largo: A
+
+transmission 4
+Substring más largo: a
+
+transmission 5
+Substring más largo: a
+
+transmission 6
+Substring más largo: m
+
+transmission 7
+Substring más largo: m
+
+transmission 8
+Substring más largo: a
+
+transmission 9
+Substring más largo: ComoEstas
+
+transmission 10
+Substring más largo: a
+
+transmission 11
+Substring más largo: A
+
+transmission 12
+Substring más largo: a
+
+transmission 13
+Substring más largo: C
+
+transmission 14
+Substring más largo: a
+
+
+ T R A N S M I S S I O N 3
+
+mcode 1
+(false) Cadena no encontrada en la transmisión
+
+mcode 2
+(false) Cadena no encontrada en la transmisión
+
+mcode 3
+(false) Cadena no encontrada en la transmisión
+
+mcode 4
+(false) Cadena no encontrada en la transmisión
+
+mcode 5
+(false) Cadena no encontrada en la transmisión
+
+mcode 6
+(false) Cadena no encontrada en la transmisión
+
+mcode 7
+(false) Cadena no encontrada en la transmisión
+
+mcode 8
+(false) Cadena no encontrada en la transmisión
+
+mcode 9
+(false) Cadena no encontrada en la transmisión
+
+mcode 10
+(false) Cadena no encontrada en la transmisión
+
+mcode 11
+(false) Cadena no encontrada en la transmisión
+
+mcode 12
+(false) Cadena no encontrada en la transmisión
+
+mcode 13
+(false) Cadena no encontrada en la transmisión
+
+mcode 14
+(false) Cadena no encontrada en la transmisión
+
+mcode 15
+(false) Cadena no encontrada en la transmisión
+
+mcode 16
+(false) Cadena no encontrada en la transmisión
+
+mcode 17
+(true) Posición inicial: 32 Posición final: 36
+
+mcode 18
+(false) Cadena no encontrada en la transmisión
+
+mcode 19
+(false) Cadena no encontrada en la transmisión
+
+mcode 20
+(false) Cadena no encontrada en la transmisión
+
+mcode 21
+(false) Cadena no encontrada en la transmisión
+
+Codigo espejeado: E1E
+Posición inicial: 14 Posición final: 16
+
+transmission 1
+Substring más largo: EDG5A9C3D1F491A5
+
+transmission 2
+Substring más largo: A
+
+transmission 4
+Substring más largo: 5
+
+transmission 5
+Substring más largo: 56
+
+transmission 6
+Substring más largo: 1
+
+transmission 7
+Substring más largo: 2
+
+transmission 8
+Substring más largo: 864
+
+transmission 9
+Substring más largo: C
+
+transmission 10
+Substring más largo: 864
+
+transmission 11
+Substring más largo: 23
+
+transmission 12
+Substring más largo: 20
+
+transmission 13
+Substring más largo: A56
+
+transmission 14
+Substring más largo: 20
+
+
+ T R A N S M I S S I O N 4
+
+mcode 1
+(false) Cadena no encontrada en la transmisión
+
+mcode 2
+(true) Posición inicial: 34 Posición final: 42
+
+mcode 3
+(false) Cadena no encontrada en la transmisión
+
+mcode 4
+(false) Cadena no encontrada en la transmisión
+
+mcode 5
+(true) Posición inicial: 41 Posición final: 42
+(true) Posición inicial: 42 Posición final: 43
+(true) Posición inicial: 43 Posición final: 44
+(true) Posición inicial: 72 Posición final: 73
+
+mcode 6
+(false) Cadena no encontrada en la transmisión
+
+mcode 7
+(false) Cadena no encontrada en la transmisión
+
+mcode 8
+(false) Cadena no encontrada en la transmisión
+
+mcode 9
+(false) Cadena no encontrada en la transmisión
+
+mcode 10
+(false) Cadena no encontrada en la transmisión
+
+mcode 11
+(false) Cadena no encontrada en la transmisión
+
+mcode 12
+(false) Cadena no encontrada en la transmisión
+
+mcode 13
+(false) Cadena no encontrada en la transmisión
+
+mcode 14
+(false) Cadena no encontrada en la transmisión
+
+mcode 15
+(false) Cadena no encontrada en la transmisión
+
+mcode 16
+(false) Cadena no encontrada en la transmisión
+
+mcode 17
+(false) Cadena no encontrada en la transmisión
+
+mcode 18
+(false) Cadena no encontrada en la transmisión
+
+mcode 19
+(false) Cadena no encontrada en la transmisión
+
+mcode 20
+(false) Cadena no encontrada en la transmisión
+
+mcode 21
+(false) Cadena no encontrada en la transmisión
+
+Codigo espejeado: aerdcccbbbbcccdrea
+Posición inicial: 34 Posición final: 51
+
+transmission 1
+Substring más largo: 24
+
+transmission 2
+Substring más largo: a
+
+transmission 3
+Substring más largo: 8
+
+transmission 5
+Substring más largo: aerdcccbb
+
+transmission 6
+Substring más largo: de
+
+transmission 7
+Substring más largo: de
+
+transmission 8
+Substring más largo: 24a
+
+transmission 9
+Substring más largo: a
+
+transmission 10
+Substring más largo: ebb
+
+transmission 11
+Substring más largo: 2
+
+transmission 12
+Substring más largo: 7
+
+transmission 13
+Substring más largo: 76
+
+transmission 14
+Substring más largo: 7
+
+
+ T R A N S M I S S I O N 5
+
+mcode 1
+(false) Cadena no encontrada en la transmisión
+
+mcode 2
+(true) Posición inicial: 0 Posición final: 8
+
+mcode 3
+(false) Cadena no encontrada en la transmisión
+
+mcode 4
+(false) Cadena no encontrada en la transmisión
+
+mcode 5
+(true) Posición inicial: 7 Posición final: 8
+
+mcode 6
+(false) Cadena no encontrada en la transmisión
+
+mcode 7
+(false) Cadena no encontrada en la transmisión
+
+mcode 8
+(false) Cadena no encontrada en la transmisión
+
+mcode 9
+(false) Cadena no encontrada en la transmisión
+
+mcode 10
+(false) Cadena no encontrada en la transmisión
+
+mcode 11
+(false) Cadena no encontrada en la transmisión
+
+mcode 12
+(false) Cadena no encontrada en la transmisión
+
+mcode 13
+(false) Cadena no encontrada en la transmisión
+
+mcode 14
+(false) Cadena no encontrada en la transmisión
+
+mcode 15
+(false) Cadena no encontrada en la transmisión
+
+mcode 16
+(false) Cadena no encontrada en la transmisión
+
+mcode 17
+(false) Cadena no encontrada en la transmisión
+
+mcode 18
+(false) Cadena no encontrada en la transmisión
+
+mcode 19
+(false) Cadena no encontrada en la transmisión
+
+mcode 20
+(false) Cadena no encontrada en la transmisión
+
+mcode 21
+(false) Cadena no encontrada en la transmisión
+
+Codigo espejeado: 777c777
+Posición inicial: 32 Posición final: 38
+
+transmission 1
+Substring más largo: 21
+
+transmission 2
+Substring más largo: a
+
+transmission 3
+Substring más largo: 56
+
+transmission 4
+Substring más largo: aerdcccbb
+
+transmission 6
+Substring más largo: c
+
+transmission 7
+Substring más largo: c
+
+transmission 8
+Substring más largo: 687
+
+transmission 9
+Substring más largo: a
+
+transmission 10
+Substring más largo: 66
+
+transmission 11
+Substring más largo: 11
+
+transmission 12
+Substring más largo: 65
+
+transmission 13
+Substring más largo: 567
+
+transmission 14
+Substring más largo: 65
+
+
+ T R A N S M I S S I O N 6
+
+mcode 1
+(false) Cadena no encontrada en la transmisión
+
+mcode 2
+(false) Cadena no encontrada en la transmisión
+
+mcode 3
+(false) Cadena no encontrada en la transmisión
+
+mcode 4
+(false) Cadena no encontrada en la transmisión
+
+mcode 5
+(false) Cadena no encontrada en la transmisión
+
+mcode 6
+(false) Cadena no encontrada en la transmisión
+
+mcode 7
+(false) Cadena no encontrada en la transmisión
+
+mcode 8
+(false) Cadena no encontrada en la transmisión
+
+mcode 9
+(false) Cadena no encontrada en la transmisión
+
+mcode 10
+(false) Cadena no encontrada en la transmisión
+
+mcode 11
+(false) Cadena no encontrada en la transmisión
+
+mcode 12
+(false) Cadena no encontrada en la transmisión
+
+mcode 13
+(false) Cadena no encontrada en la transmisión
+
+mcode 14
+(false) Cadena no encontrada en la transmisión
+
+mcode 15
+(true) Posición inicial: 0 Posición final: 5
+
+mcode 16
+(false) Cadena no encontrada en la transmisión
+
+mcode 17
+(false) Cadena no encontrada en la transmisión
+
+mcode 18
+(false) Cadena no encontrada en la transmisión
+
+mcode 19
+(false) Cadena no encontrada en la transmisión
+
+mcode 20
+(false) Cadena no encontrada en la transmisión
+
+mcode 21
+(false) Cadena no encontrada en la transmisión
+
+Codigo espejeado: mcode1edocm
+Posición inicial: 0 Posición final: 10
+
+transmission 1
+Substring más largo: 1
+
+transmission 2
+Substring más largo: o
+
+transmission 3
+Substring más largo: 1
+
+transmission 4
+Substring más largo: de
+
+transmission 5
+Substring más largo: e
+
+transmission 7
+Substring más largo: mcode
+
+transmission 8
+Substring más largo: ed
+
+transmission 9
+Substring más largo: o
+
+transmission 10
+Substring más largo: d
+
+transmission 11
+Substring más largo: 1
+
+transmission 12
+Substring más largo: 1
+
+transmission 13
+Substring más largo: 1
+
+transmission 14
+Substring más largo: 1
+
+
+ T R A N S M I S S I O N 7
+
+mcode 1
+(false) Cadena no encontrada en la transmisión
+
+mcode 2
+(false) Cadena no encontrada en la transmisión
+
+mcode 3
+(false) Cadena no encontrada en la transmisión
+
+mcode 4
+(false) Cadena no encontrada en la transmisión
+
+mcode 5
+(false) Cadena no encontrada en la transmisión
+
+mcode 6
+(false) Cadena no encontrada en la transmisión
+
+mcode 7
+(false) Cadena no encontrada en la transmisión
+
+mcode 8
+(false) Cadena no encontrada en la transmisión
+
+mcode 9
+(true) Posición inicial: 0 Posición final: 5
+
+mcode 10
+(false) Cadena no encontrada en la transmisión
+
+mcode 11
+(false) Cadena no encontrada en la transmisión
+
+mcode 12
+(false) Cadena no encontrada en la transmisión
+
+mcode 13
+(false) Cadena no encontrada en la transmisión
+
+mcode 14
+(false) Cadena no encontrada en la transmisión
+
+mcode 15
+(false) Cadena no encontrada en la transmisión
+
+mcode 16
+(true) Posición inicial: 6 Posición final: 11
+
+mcode 17
+(false) Cadena no encontrada en la transmisión
+
+mcode 18
+(false) Cadena no encontrada en la transmisión
+
+mcode 19
+(false) Cadena no encontrada en la transmisión
+
+mcode 20
+(false) Cadena no encontrada en la transmisión
+
+mcode 21
+(false) Cadena no encontrada en la transmisión
+
+Codigo espejeado: mcode3edocm
+Posición inicial: 6 Posición final: 16
+
+transmission 1
+Substring más largo: 3
+
+transmission 2
+Substring más largo: o
+
+transmission 3
+Substring más largo: 3
+
+transmission 4
+Substring más largo: de
+
+transmission 5
+Substring más largo: e
+
+transmission 6
+Substring más largo: mcode
+
+transmission 8
+Substring más largo: ed
+
+transmission 9
+Substring más largo: o
+
+transmission 10
+Substring más largo: 2
+
+transmission 11
+Substring más largo: 2
+
+transmission 12
+Substring más largo: e2
+
+transmission 13
+Substring más largo: 2
+
+transmission 14
+Substring más largo: e2
+
+
+ T R A N S M I S S I O N 8
+
+mcode 1
+(false) Cadena no encontrada en la transmisión
+
+mcode 2
+(false) Cadena no encontrada en la transmisión
+
+mcode 3
+(false) Cadena no encontrada en la transmisión
+
+mcode 4
+(false) Cadena no encontrada en la transmisión
+
+mcode 5
+(true) Posición inicial: 63 Posición final: 64
+(true) Posición inicial: 64 Posición final: 65
+
+mcode 6
+(false) Cadena no encontrada en la transmisión
+
+mcode 7
+(false) Cadena no encontrada en la transmisión
+
+mcode 8
+(false) Cadena no encontrada en la transmisión
+
+mcode 9
+(false) Cadena no encontrada en la transmisión
+
+mcode 10
+(false) Cadena no encontrada en la transmisión
+
+mcode 11
+(true) Posición inicial: 71 Posición final: 102
+
+mcode 12
+(false) Cadena no encontrada en la transmisión
+
+mcode 13
+(false) Cadena no encontrada en la transmisión
+
+mcode 14
+(false) Cadena no encontrada en la transmisión
+
+mcode 15
+(false) Cadena no encontrada en la transmisión
+
+mcode 16
+(false) Cadena no encontrada en la transmisión
+
+mcode 17
+(false) Cadena no encontrada en la transmisión
+
+mcode 18
+(false) Cadena no encontrada en la transmisión
+
+mcode 19
+(false) Cadena no encontrada en la transmisión
+
+mcode 20
+(false) Cadena no encontrada en la transmisión
+
+mcode 21
+(false) Cadena no encontrada en la transmisión
+
+Codigo espejeado: 0909090
+Posición inicial: 0 Posición final: 6
+
+transmission 1
+Substring más largo: 249
+
+transmission 2
+Substring más largo: a
+
+transmission 3
+Substring más largo: 864
+
+transmission 4
+Substring más largo: 24a
+
+transmission 5
+Substring más largo: 687
+
+transmission 6
+Substring más largo: ed
+
+transmission 7
+Substring más largo: ed
+
+transmission 9
+Substring más largo: a
+
+transmission 10
+Substring más largo: 42d9668dac527452c8891c0ebbbe8b3d2
+
+transmission 11
+Substring más largo: 45
+
+transmission 12
+Substring más largo: 271
+
+transmission 13
+Substring más largo: 09
+
+transmission 14
+Substring más largo: 271
+
+
+ T R A N S M I S S I O N 9
+
+mcode 1
+(false) Cadena no encontrada en la transmisión
+
+mcode 2
+(false) Cadena no encontrada en la transmisión
+
+mcode 3
+(false) Cadena no encontrada en la transmisión
+
+mcode 4
+(false) Cadena no encontrada en la transmisión
+
+mcode 5
+(false) Cadena no encontrada en la transmisión
+
+mcode 6
+(false) Cadena no encontrada en la transmisión
+
+mcode 7
+(false) Cadena no encontrada en la transmisión
+
+mcode 8
+(false) Cadena no encontrada en la transmisión
+
+mcode 9
+(false) Cadena no encontrada en la transmisión
+
+mcode 10
+(false) Cadena no encontrada en la transmisión
+
+mcode 11
+(false) Cadena no encontrada en la transmisión
+
+mcode 12
+(false) Cadena no encontrada en la transmisión
+
+mcode 13
+(true) Posición inicial: 8 Posición final: 12
+
+mcode 14
+(false) Cadena no encontrada en la transmisión
+
+mcode 15
+(false) Cadena no encontrada en la transmisión
+
+mcode 16
+(false) Cadena no encontrada en la transmisión
+
+mcode 17
+(false) Cadena no encontrada en la transmisión
+
+mcode 18
+(false) Cadena no encontrada en la transmisión
+
+mcode 19
+(false) Cadena no encontrada en la transmisión
+
+mcode 20
+(true) Posición inicial: 0 Posición final: 3
+
+mcode 21
+(false) Cadena no encontrada en la transmisión
+
+Codigo espejeado: omo
+Posición inicial: 5 Posición final: 7
+
+transmission 1
+Substring más largo: E
+
+transmission 2
+Substring más largo: ComoEstas
+
+transmission 3
+Substring más largo: E
+
+transmission 4
+Substring más largo: a
+
+transmission 5
+Substring más largo: a
+
+transmission 6
+Substring más largo: m
+
+transmission 7
+Substring más largo: m
+
+transmission 8
+Substring más largo: a
+
+transmission 10
+Substring más largo: a
+
+transmission 11
+Substring más largo: C
+
+transmission 12
+Substring más largo: a
+
+transmission 13
+Substring más largo: C
+
+transmission 14
+Substring más largo: a
+
+
+ T R A N S M I S S I O N 10
+
+mcode 1
+(false) Cadena no encontrada en la transmisión
+
+mcode 2
+(false) Cadena no encontrada en la transmisión
+
+mcode 3
+(false) Cadena no encontrada en la transmisión
+
+mcode 4
+(false) Cadena no encontrada en la transmisión
+
+mcode 5
+(true) Posición inicial: 24 Posición final: 25
+(true) Posición inicial: 25 Posición final: 26
+(true) Posición inicial: 111 Posición final: 112
+(true) Posición inicial: 112 Posición final: 113
+(true) Posición inicial: 160 Posición final: 161
+(true) Posición inicial: 161 Posición final: 162
+
+mcode 6
+(false) Cadena no encontrada en la transmisión
+
+mcode 7
+(false) Cadena no encontrada en la transmisión
+
+mcode 8
+(false) Cadena no encontrada en la transmisión
+
+mcode 9
+(false) Cadena no encontrada en la transmisión
+
+mcode 10
+(false) Cadena no encontrada en la transmisión
+
+mcode 11
+(false) Cadena no encontrada en la transmisión
+
+mcode 12
+(false) Cadena no encontrada en la transmisión
+
+mcode 13
+(false) Cadena no encontrada en la transmisión
+
+mcode 14
+(false) Cadena no encontrada en la transmisión
+
+mcode 15
+(false) Cadena no encontrada en la transmisión
+
+mcode 16
+(false) Cadena no encontrada en la transmisión
+
+mcode 17
+(false) Cadena no encontrada en la transmisión
+
+mcode 18
+(false) Cadena no encontrada en la transmisión
+
+mcode 19
+(false) Cadena no encontrada en la transmisión
+
+mcode 20
+(false) Cadena no encontrada en la transmisión
+
+mcode 21
+(false) Cadena no encontrada en la transmisión
+
+Codigo espejeado: 0909090
+Posición inicial: 48 Posición final: 54
+
+transmission 1
+Substring más largo: 249
+
+transmission 2
+Substring más largo: a
+
+transmission 3
+Substring más largo: 864
+
+transmission 4
+Substring más largo: bbb
+
+transmission 5
+Substring más largo: dc
+
+transmission 6
+Substring más largo: c
+
+transmission 7
+Substring más largo: c
+
+transmission 8
+Substring más largo: 42d9668dac527452c8891c0ebbbe8b3d2
+
+transmission 9
+Substring más largo: a
+
+transmission 11
+Substring más largo: 11
+
+transmission 12
+Substring más largo: 271
+
+transmission 13
+Substring más largo: 09
+
+transmission 14
+Substring más largo: 271
+
+
+ T R A N S M I S S I O N 11
+
+mcode 1
+(false) Cadena no encontrada en la transmisión
+
+mcode 2
+(false) Cadena no encontrada en la transmisión
+
+mcode 3
+(false) Cadena no encontrada en la transmisión
+
+mcode 4
+(false) Cadena no encontrada en la transmisión
+
+mcode 5
+(false) Cadena no encontrada en la transmisión
+
+mcode 6
+(false) Cadena no encontrada en la transmisión
+
+mcode 7
+(false) Cadena no encontrada en la transmisión
+
+mcode 8
+(false) Cadena no encontrada en la transmisión
+
+mcode 9
+(false) Cadena no encontrada en la transmisión
+
+mcode 10
+(false) Cadena no encontrada en la transmisión
+
+mcode 11
+(false) Cadena no encontrada en la transmisión
+
+mcode 12
+(false) Cadena no encontrada en la transmisión
+
+mcode 13
+(false) Cadena no encontrada en la transmisión
+
+mcode 14
+(false) Cadena no encontrada en la transmisión
+
+mcode 15
+(false) Cadena no encontrada en la transmisión
+
+mcode 16
+(false) Cadena no encontrada en la transmisión
+
+mcode 17
+(false) Cadena no encontrada en la transmisión
+
+mcode 18
+(false) Cadena no encontrada en la transmisión
+
+mcode 19
+(false) Cadena no encontrada en la transmisión
+
+mcode 20
+(false) Cadena no encontrada en la transmisión
+
+mcode 21
+(false) Cadena no encontrada en la transmisión
+
+Codigo espejeado: 111
+Posición inicial: 10 Posición final: 12
+
+transmission 1
+Substring más largo: 1A
+
+transmission 2
+Substring más largo: A
+
+transmission 3
+Substring más largo: 5D
+
+transmission 4
+Substring más largo: 5
+
+transmission 5
+Substring más largo: 11
+
+transmission 6
+Substring más largo: 1
+
+transmission 7
+Substring más largo: 2
+
+transmission 8
+Substring más largo: 09
+
+transmission 9
+Substring más largo: C
+
+transmission 10
+Substring más largo: 45
+
+transmission 12
+Substring más largo: 0
+
+transmission 13
+Substring más largo: ABCDEF12345
+
+transmission 14
+Substring más largo: 0
+
+
+ T R A N S M I S S I O N 12
+
+mcode 1
+(false) Cadena no encontrada en la transmisión
+
+mcode 2
+(false) Cadena no encontrada en la transmisión
+
+mcode 3
+(false) Cadena no encontrada en la transmisión
+
+mcode 4
+(false) Cadena no encontrada en la transmisión
+
+mcode 5
+(false) Cadena no encontrada en la transmisión
+
+mcode 6
+(false) Cadena no encontrada en la transmisión
+
+mcode 7
+(false) Cadena no encontrada en la transmisión
+
+mcode 8
+(false) Cadena no encontrada en la transmisión
+
+mcode 9
+(false) Cadena no encontrada en la transmisión
+
+mcode 10
+(false) Cadena no encontrada en la transmisión
+
+mcode 11
+(false) Cadena no encontrada en la transmisión
+
+mcode 12
+(false) Cadena no encontrada en la transmisión
+
+mcode 13
+(false) Cadena no encontrada en la transmisión
+
+mcode 14
+(false) Cadena no encontrada en la transmisión
+
+mcode 15
+(false) Cadena no encontrada en la transmisión
+
+mcode 16
+(false) Cadena no encontrada en la transmisión
+
+mcode 17
+(false) Cadena no encontrada en la transmisión
+
+mcode 18
+(false) Cadena no encontrada en la transmisión
+
+mcode 19
+(false) Cadena no encontrada en la transmisión
+
+mcode 20
+(false) Cadena no encontrada en la transmisión
+
+mcode 21
+(true) Posición inicial: 17 Posición final: 21
+
+Codigo espejeado: 6e6172716e6
+Posición inicial: 14 Posición final: 24
+
+transmission 1
+Substring más largo: 5
+
+transmission 2
+Substring más largo: a
+
+transmission 3
+Substring más largo: 20
+
+transmission 4
+Substring más largo: e
+
+transmission 5
+Substring más largo: a6
+
+transmission 6
+Substring más largo: e
+
+transmission 7
+Substring más largo: e2
+
+transmission 8
+Substring más largo: 271
+
+transmission 9
+Substring más largo: a
+
+transmission 10
+Substring más largo: 726
+
+transmission 11
+Substring más largo: 1
+
+transmission 13
+Substring más largo: 17
+
+transmission 14
+Substring más largo: 70616e206465206e6172716e6a61
+
+
+ T R A N S M I S S I O N 13
+
+mcode 1
+(false) Cadena no encontrada en la transmisión
+
+mcode 2
+(false) Cadena no encontrada en la transmisión
+
+mcode 3
+(false) Cadena no encontrada en la transmisión
+
+mcode 4
+(false) Cadena no encontrada en la transmisión
+
+mcode 5
+(false) Cadena no encontrada en la transmisión
+
+mcode 6
+(false) Cadena no encontrada en la transmisión
+
+mcode 7
+(false) Cadena no encontrada en la transmisión
+
+mcode 8
+(false) Cadena no encontrada en la transmisión
+
+mcode 9
+(false) Cadena no encontrada en la transmisión
+
+mcode 10
+(false) Cadena no encontrada en la transmisión
+
+mcode 11
+(false) Cadena no encontrada en la transmisión
+
+mcode 12
+(false) Cadena no encontrada en la transmisión
+
+mcode 13
+(false) Cadena no encontrada en la transmisión
+
+mcode 14
+(false) Cadena no encontrada en la transmisión
+
+mcode 15
+(false) Cadena no encontrada en la transmisión
+
+mcode 16
+(false) Cadena no encontrada en la transmisión
+
+mcode 17
+(false) Cadena no encontrada en la transmisión
+
+mcode 18
+(true) Posición inicial: 6 Posición final: 9
+
+mcode 19
+(false) Cadena no encontrada en la transmisión
+
+mcode 20
+(false) Cadena no encontrada en la transmisión
+
+mcode 21
+(false) Cadena no encontrada en la transmisión
+
+Codigo espejeado: 111
+Posición inicial: 21 Posición final: 23
+
+transmission 1
+Substring más largo: 5A
+
+transmission 2
+Substring más largo: A
+
+transmission 3
+Substring más largo: A56
+
+transmission 4
+Substring más largo: 76
+
+transmission 5
+Substring más largo: 567
+
+transmission 6
+Substring más largo: 1
+
+transmission 7
+Substring más largo: 2
+
+transmission 8
+Substring más largo: 09
+
+transmission 9
+Substring más largo: C
+
+transmission 10
+Substring más largo: 45
+
+transmission 11
+Substring más largo: ABCDEF12345
+
+transmission 12
+Substring más largo: 65
+
+transmission 14
+Substring más largo: 65
+
+
+ T R A N S M I S S I O N 14
+
+mcode 1
+(false) Cadena no encontrada en la transmisión
+
+mcode 2
+(false) Cadena no encontrada en la transmisión
+
+mcode 3
+(false) Cadena no encontrada en la transmisión
+
+mcode 4
+(false) Cadena no encontrada en la transmisión
+
+mcode 5
+(false) Cadena no encontrada en la transmisión
+
+mcode 6
+(false) Cadena no encontrada en la transmisión
+
+mcode 7
+(false) Cadena no encontrada en la transmisión
+
+mcode 8
+(false) Cadena no encontrada en la transmisión
+
+mcode 9
+(false) Cadena no encontrada en la transmisión
+
+mcode 10
+(false) Cadena no encontrada en la transmisión
+
+mcode 11
+(false) Cadena no encontrada en la transmisión
+
+mcode 12
+(false) Cadena no encontrada en la transmisión
+
+mcode 13
+(false) Cadena no encontrada en la transmisión
+
+mcode 14
+(false) Cadena no encontrada en la transmisión
+
+mcode 15
+(false) Cadena no encontrada en la transmisión
+
+mcode 16
+(false) Cadena no encontrada en la transmisión
+
+mcode 17
+(false) Cadena no encontrada en la transmisión
+
+mcode 18
+(false) Cadena no encontrada en la transmisión
+
+mcode 19
+(false) Cadena no encontrada en la transmisión
+
+mcode 20
+(false) Cadena no encontrada en la transmisión
+
+mcode 21
 (true) Posición inicial: 17 Posición final: 21
 (true) Posición inicial: 45 Posición final: 49
 (true) Posición inicial: 73 Posición final: 77
@@ -29,4 +1589,43 @@ mcode 3
 
 Codigo espejeado: 6e6172716e6
 Posición inicial: 14 Posición final: 24
+
+transmission 1
+Substring más largo: 5
+
+transmission 2
+Substring más largo: a
+
+transmission 3
+Substring más largo: 20
+
+transmission 4
+Substring más largo: e
+
+transmission 5
+Substring más largo: a6
+
+transmission 6
+Substring más largo: e
+
+transmission 7
+Substring más largo: e2
+
+transmission 8
+Substring más largo: 271
+
+transmission 9
+Substring más largo: a
+
+transmission 10
+Substring más largo: 271
+
+transmission 11
+Substring más largo: 1
+
+transmission 12
+Substring más largo: 70616e206465206e6172716e6a61
+
+transmission 13
+Substring más largo: 17
 

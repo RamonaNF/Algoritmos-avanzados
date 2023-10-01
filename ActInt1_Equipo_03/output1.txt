@@ -21,19 +21,12 @@ mcode 2
 
 mcode 3
 (true) Posición inicial: 17 Posición final: 21
-PRUEBA 17271
 (true) Posición inicial: 45 Posición final: 49
-PRUEBA 17271
 (true) Posición inicial: 73 Posición final: 77
-PRUEBA 17271
 (true) Posición inicial: 101 Posición final: 105
-PRUEBA 17271
 (true) Posición inicial: 129 Posición final: 133
-PRUEBA 17271
 (true) Posición inicial: 157 Posición final: 161
-PRUEBA 17271
 
-6e6172716e6
-PRUEBA 6e6172716e6
+Codigo espejeado: 6e6172716e6
 Posición inicial: 14 Posición final: 24
 
