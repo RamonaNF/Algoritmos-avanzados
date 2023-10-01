@@ -6,7 +6,7 @@ import os
 # Directorio del codigo malicioso
 m_directory = "./Mcode0"
 
-# Directorio de las transmiciones
+# Directorio de las transmisiones
 t_directory = "./Transmissions0"
 
 transmission = []
@@ -26,7 +26,7 @@ for m_file in os.listdir(m_directory): # Almacenando todos los códigos que pued
             malicious.append(string)
 
 
-for t_file in os.listdir(t_directory): # Almacenando todas las transmiciones
+for t_file in os.listdir(t_directory): # Almacenando todas las transmisiones
     f = os.path.join(t_directory, t_file)
     
     if os.path.isfile(f) and t_file.endswith('.txt'):
@@ -41,7 +41,7 @@ for t_file in os.listdir(t_directory): # Almacenando todas las transmiciones
 
 with open ("output0.txt", 'w') as out:
     for t_index, t in enumerate(transmission):
-        out.write("\nArchivo de transmición " + str(t_index + 1) + "\n")
+        out.write("\nArchivo de transmisión " + str(t_index + 1) + "\n")
         out.write(t + "\n")
 
 
@@ -75,7 +75,7 @@ with open ("output0.txt", 'w') as out:
         (palindrome, index) = Manacher(t)
 
         if len(palindrome) > 1:
-            out.write("Codigo espejeado: " + palindrome + "\n")
+            out.write("Código espejeado: " + palindrome + "\n")
             #out.write("PRUEBA " + t[index:index+len(palindrome)] + "\n") # ESTA LÍNEA ES PARA VALIDAR
             out.write("Posición inicial: " + str(index) + " ")
             out.write("Posición final: " + str(index + len(palindrome) - 1) + "\n\n")

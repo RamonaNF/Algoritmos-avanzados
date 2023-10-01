@@ -1,5 +1,5 @@
 
-Archivo de transmición 1
+Archivo de transmisión 1
 70616e206465206e6172716e6a6170616e206465206e6172716e6a6170616e206465206e6172716e6a6170616e206465206e6172716e6a6170616e206465206e6172716e6a6170616e206465206e6172716e6a61
 
 Archivo mcode1
@@ -27,6 +27,6 @@ mcode 3
 (true) Posición inicial: 129 Posición final: 133
 (true) Posición inicial: 157 Posición final: 161
 
-Codigo espejeado: 6e6172716e6
+Código espejeado: 6e6172716e6
 Posición inicial: 14 Posición final: 24
 

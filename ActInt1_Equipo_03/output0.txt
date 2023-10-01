@@ -1,44 +1,44 @@
 
-Archivo de transmición 1
+Archivo de transmisión 1
 EDG5A9C3D1F491A5AA5821DFCC9EEB24EDD6693AF249E
 
-Archivo de transmición 2
+Archivo de transmisión 2
 HolaAmigoComoEstas
 
-Archivo de transmición 3
+Archivo de transmisión 3
 085DFB93BB5DFAE1EDG5A9C3D1F491A58C20AFBA5236B1864EEF25DBCCA569
 
-Archivo de transmición 4
+Archivo de transmisión 4
 e7578768eeee44424e7578768eeee44424aerdcccbbbbcccdreae7578768eeee4442435ebbcdddeffff
 
-Archivo de transmición 5
+Archivo de transmisión 5
 aerdcccbb211a5a6665677be755e6f68777c777a
 
-Archivo de transmición 6
+Archivo de transmisión 6
 mcode1edocm
 
-Archivo de transmición 7
+Archivo de transmisión 7
 mcode2mcode3edocm
 
-Archivo de transmición 8
+Archivo de transmisión 8
 090909029b8bfca9024ad3cb7020b331687ed9742d9668dac527452c8891c0ebbbe8b3d2b8a0c513b8e9b927170c2497864dfb6
 
-Archivo de transmición 9
+Archivo de transmisión 9
 HolaComoEstas
 
-Archivo de transmición 10
+Archivo de transmisión 10
 42d9668dac527452c8891c0ebbbe8b3ddb5dca0d63fa726a09090901160c68610afac06f2b8a0c513b8e9b942d9668dac527452c8891c0ebbbe8b3d27170c2497864dfb642d9668dac527452c8891c0ebbbe8b3d
 
-Archivo de transmición 11
+Archivo de transmisión 11
 1234AACBDE111ABCDEF12345DC09
 
-Archivo de transmición 12
+Archivo de transmisión 12
 70616e206465206e6172716e6a6150616e206465206e6172616e6a61
 
-Archivo de transmición 13
+Archivo de transmisión 13
 1DC09EA567ABCDEF12345111765A
 
-Archivo de transmición 14
+Archivo de transmisión 14
 70616e206465206e6172716e6a6170616e206465206e6172716e6a6170616e206465206e6172716e6a6170616e206465206e6172716e6a6170616e206465206e6172716e6a6170616e206465206e6172716e6a61
 
 Archivo mcode1
@@ -169,7 +169,7 @@ mcode 20
 mcode 21
 (false) Cadena no encontrada en la transmisión
 
-Codigo espejeado: 5AA5
+Código espejeado: 5AA5
 Posición inicial: 15 Posición final: 18
 
 transmission 2
@@ -277,7 +277,7 @@ mcode 20
 mcode 21
 (false) Cadena no encontrada en la transmisión
 
-Codigo espejeado: oCo
+Código espejeado: oCo
 Posición inicial: 8 Posición final: 10
 
 transmission 1
@@ -385,7 +385,7 @@ mcode 20
 mcode 21
 (false) Cadena no encontrada en la transmisión
 
-Codigo espejeado: E1E
+Código espejeado: E1E
 Posición inicial: 14 Posición final: 16
 
 transmission 1
@@ -496,7 +496,7 @@ mcode 20
 mcode 21
 (false) Cadena no encontrada en la transmisión
 
-Codigo espejeado: aerdcccbbbbcccdrea
+Código espejeado: aerdcccbbbbcccdrea
 Posición inicial: 34 Posición final: 51
 
 transmission 1
@@ -604,7 +604,7 @@ mcode 20
 mcode 21
 (false) Cadena no encontrada en la transmisión
 
-Codigo espejeado: 777c777
+Código espejeado: 777c777
 Posición inicial: 32 Posición final: 38
 
 transmission 1
@@ -712,7 +712,7 @@ mcode 20
 mcode 21
 (false) Cadena no encontrada en la transmisión
 
-Codigo espejeado: mcode1edocm
+Código espejeado: mcode1edocm
 Posición inicial: 0 Posición final: 10
 
 transmission 1
@@ -820,7 +820,7 @@ mcode 20
 mcode 21
 (false) Cadena no encontrada en la transmisión
 
-Codigo espejeado: mcode3edocm
+Código espejeado: mcode3edocm
 Posición inicial: 6 Posición final: 16
 
 transmission 1
@@ -929,7 +929,7 @@ mcode 20
 mcode 21
 (false) Cadena no encontrada en la transmisión
 
-Codigo espejeado: 0909090
+Código espejeado: 0909090
 Posición inicial: 0 Posición final: 6
 
 transmission 1
@@ -1037,7 +1037,7 @@ mcode 20
 mcode 21
 (false) Cadena no encontrada en la transmisión
 
-Codigo espejeado: omo
+Código espejeado: omo
 Posición inicial: 5 Posición final: 7
 
 transmission 1
@@ -1150,7 +1150,7 @@ mcode 20
 mcode 21
 (false) Cadena no encontrada en la transmisión
 
-Codigo espejeado: 0909090
+Código espejeado: 0909090
 Posición inicial: 48 Posición final: 54
 
 transmission 1
@@ -1258,7 +1258,7 @@ mcode 20
 mcode 21
 (false) Cadena no encontrada en la transmisión
 
-Codigo espejeado: 111
+Código espejeado: 111
 Posición inicial: 10 Posición final: 12
 
 transmission 1
@@ -1366,7 +1366,7 @@ mcode 20
 mcode 21
 (true) Posición inicial: 17 Posición final: 21
 
-Codigo espejeado: 6e6172716e6
+Código espejeado: 6e6172716e6
 Posición inicial: 14 Posición final: 24
 
 transmission 1
@@ -1474,7 +1474,7 @@ mcode 20
 mcode 21
 (false) Cadena no encontrada en la transmisión
 
-Codigo espejeado: 111
+Código espejeado: 111
 Posición inicial: 21 Posición final: 23
 
 transmission 1
@@ -1587,7 +1587,7 @@ mcode 21
 (true) Posición inicial: 129 Posición final: 133
 (true) Posición inicial: 157 Posición final: 161
 
-Codigo espejeado: 6e6172716e6
+Código espejeado: 6e6172716e6
 Posición inicial: 14 Posición final: 24
 
 transmission 1
