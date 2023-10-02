@@ -1,11 +1,13 @@
 """
-  LONGEST COMMON SUBSTRING
+  PROGRAMACIÓN DINÁMICA
+    Buscando la subcadena común más larga
 
   Complejidad: O( n * m )
   
 """
 
-def longest_substr(text1: str, text2: str) -> str:
+# Longest Common Substring
+def lcs(text1: str, text2: str) -> str:
     coincidences = [[0 for col in range(len(text1))] for row in range(len(text2))]
     tup = [-1, -1] # index, len
     

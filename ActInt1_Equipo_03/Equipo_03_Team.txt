@@ -1,0 +1,6 @@
+
+A01704132 | José Armando Rosas Balderas: KMP, Manacher, LCS y main
+
+A01709150 | Diego Perdomo Salcedo: KMP, LCS y main
+
+A01423596 | Ramona Nájera Fuentes: KMP, Manacher, LCS y main

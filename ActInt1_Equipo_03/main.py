@@ -1,19 +1,22 @@
-from Longest_substr import longest_substr
+from LCS_dinamico import lcs
 from Manacher import Manacher
 from KMP import kmp 
 import os
 
-# Directorio del codigo malicioso
-m_directory = "./Mcode0"
+# Para los directorios de input y output
+num = 1
+
+# Directorio del código malicioso
+m_directory = "./Mcode" + str(num)
 
 # Directorio de las transmisiones
-t_directory = "./Transmissions0"
+t_directory = "./Transmissions" + str(num)
 
 transmission = []
 malicious = []
 
 
-for m_file in os.listdir(m_directory): # Almacenando todos los códigos que pueden ser maliciosos
+for m_file in os.listdir(m_directory): # Almacenando los códigos maliciosos
     f = os.path.join(m_directory, m_file)
     
     if os.path.isfile(f) and m_file.endswith('.txt'):
@@ -26,7 +29,7 @@ for m_file in os.listdir(m_directory): # Almacenando todos los códigos que pued
             malicious.append(string)
 
 
-for t_file in os.listdir(t_directory): # Almacenando todas las transmisiones
+for t_file in os.listdir(t_directory): # Almacenando las transmisiones
     f = os.path.join(t_directory, t_file)
     
     if os.path.isfile(f) and t_file.endswith('.txt'):
@@ -39,7 +42,7 @@ for t_file in os.listdir(t_directory): # Almacenando todas las transmisiones
             transmission.append(string)
 
 
-with open ("output0.txt", 'w') as out:
+with open ("Outputs/output" + str(num) + ".txt", 'w') as out:
     for t_index, t in enumerate(transmission):
         out.write("\nArchivo de transmisión " + str(t_index + 1) + "\n")
         out.write(t + "\n")
@@ -88,8 +91,8 @@ with open ("output0.txt", 'w') as out:
             if tr_index != t_index:
                 out.write("transmission " + str(tr_index + 1) + "\n")
                 
-                substr = longest_substr(t, tr)
-                if substr == " ":
+                substr = lcs(t, tr)
+                if substr.strip() == "":
                     out.write("No se encontraron coincidencias\n\n")
                 else:
                     out.write("Substring más largo: " + substr + "\n\n")
