@@ -16,7 +16,7 @@ nodos = 0
 flag = False
 adyacencias = []
 
-with open("inputs/input2.txt", 'r') as info:
+with open("inputs/input5.txt", 'r') as info:
     for linea in info:
         if not flag:
             nodos = int(linea.strip())
@@ -40,5 +40,7 @@ for i in range(len(adyacencias)):
 
 print(grafo)
 
+nodos, colores = welsh_powell(grafo)
 
-welsh_powell(grafo)
+for i in range(len(colores)):
+    print("Vértice:", nodos[i][0], "| Color asignado:", colores[i])

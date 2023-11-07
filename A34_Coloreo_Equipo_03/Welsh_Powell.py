@@ -7,7 +7,7 @@
   
   Descripción: 
 
-  Complejidad: O (  )
+  Complejidad: O ( N² )
   
 """
 
@@ -23,49 +23,44 @@ def welsh_powell(grafo: Ugraph):
   for i in range(len(grafo.get_vertexes())):
     nodos.append((i, len(grafo.get_connections_from(i))))
 
-  # Ordenamos los vértices por grado
+  # Ordenamos los nodos por grado
   nodos.sort(key = lambda  vertice : vertice[1], reverse = True)
   
   colores = [0 for i in range(len(nodos))]
   
   color = 1
-  nodo_actual = 0
 
-  while nodo_actual < len(colores):
-    if colores[nodo_actual] > 0: # Si ya está coloreado
-      nodo_actual += 1 # Seguimos buscando nodos no coloreados
+  for i in range(len(colores)):
+    nodo = nodos[i][0] # (Vértice, Grado)
+
+    if colores[i] > 0: # Si ya está coloreado, continuamos
       continue
 
-    # Sino, le asignamos un color
-    colores[nodo_actual] = color
+    colores[i] = color
 
-    adyacentes = grafo.get_connections_from(nodos[nodo_actual][0])
+    adyacencias = grafo.get_connections_from(nodo)
 
-    for restante in range(nodo_actual + 1, len(colores)): # Para cada nodo que resta en la tabla
-      if colores[restante] > 0: # Si está coloreado, continuamos
+    for j in range(i + 1, len(colores)):
+      if colores[j] > 0: # Si ya está coloreado, continuamos
         continue
 
-      if nodos[restante][0] in adyacentes: # Si es mi vecino, continuamos
+      if nodos[j][0] in adyacencias: # Si es mi vecino, no puede tener el mismo color
         continue
-
-      vecinos = grafo.get_connections_from(nodos[restante][0])
       
+      conexiones = grafo.get_connections_from(nodos[j][0])
       flag = False
-      for v in vecinos: # Sino, verifico que mis vecinos no tengan el color que quiero tener
-        if colores[v] == color:
+      for c in conexiones: # Checo mis adyacentes para ver si el color está disponible
+        # Bucamos el índice del nodo adyacente
+        index = next(i for i, (v, *_) in enumerate(nodos) if v == c)
+        
+        if colores[index] == color:
           flag = True
-          break
-      
-      if flag:
-        continue
 
-      colores[restante] = color
-    
+      if not flag: 
+        colores[j] = color
+        
     color += 1
-    nodo_actual += 1
 
-
-
-  for row in nodos:
-    print(row)
-  print(colores)
+  #print("  Nodos", nodos) 
+  #print("Colores", colores)
+  return nodos, colores
