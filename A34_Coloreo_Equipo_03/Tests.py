@@ -5,7 +5,9 @@
 
   Creación: 06 de noviembre del 2023
   
-  Descripción: 
+  Descripción: Pruebas de la implementación del
+               algoritmo de Welsh-Powell para el 
+               coloreo de grafos.
   
 """
 

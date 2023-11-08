@@ -1,3 +1,13 @@
+"""
+  Autores: José Armando Rosas Balderas, a01704132@tec.mx
+           Diego Perdomo Salcedo, a01709150@tec.mx
+           Ramona Najera Fuentes, a01423596@tec.mx
+
+  Creación: 06 de noviembre del 2023
+  
+  Descripción: Clase para un grafo sin peso.
+  
+"""
 
 class Ugraph:
     def __init__(self, direction : bool) -> None:

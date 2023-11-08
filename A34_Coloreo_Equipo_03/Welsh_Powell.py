@@ -5,7 +5,7 @@
 
   Creación: 06 de noviembre del 2023
   
-  Descripción: 
+  Descripción: Algoritmo para el coloreo de grafos.
 
   Complejidad: O ( N² )
   
@@ -38,28 +38,32 @@ def welsh_powell(grafo: Ugraph):
 
     colores[i] = color
 
-    adyacencias = grafo.get_connections_from(nodo)
+    adyacencias = grafo.get_connections_from(nodo) # Obtenemos sus vecinos
 
+    # Para cada nodo restante en la lista, asignamos el color a los no adyacentes candidatos
     for j in range(i + 1, len(colores)):
-      if colores[j] > 0: # Si ya está coloreado, continuamos
+      if colores[j] > 0: # Si está coloreado, continuamos
         continue
 
-      if nodos[j][0] in adyacencias: # Si es mi vecino, no puede tener el mismo color
+      if nodos[j][0] in adyacencias: # Si es adyacente, continuamos
         continue
       
+      # Sino, verificamos que ninguno de sus vecinos tenga el color usado actualmente
       conexiones = grafo.get_connections_from(nodos[j][0])
+
       flag = False
       for c in conexiones: # Checo mis adyacentes para ver si el color está disponible
         # Bucamos el índice del nodo adyacente
         index = next(i for i, (v, *_) in enumerate(nodos) if v == c)
         
-        if colores[index] == color:
+        if colores[index] == color: 
           flag = True
+          break
 
-      if not flag: 
-        colores[j] = color
+      if not flag: # Si el color no está ocupado, se me asigna
+        colores[j] = color 
         
-    color += 1
+    color += 1 
 
   #print("  Nodos", nodos) 
   #print("Colores", colores)
