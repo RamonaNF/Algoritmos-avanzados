@@ -48,7 +48,7 @@ class Wgraph:
         if not self.__direction:
             self.__edges[destiny].add(mutable_tuple(origin, cost))
 
-    def get_connections_from(self, vertex) -> set :
+    def get_connections_from(self, vertex) -> set:
         return self.__edges[vertex]
     
     def get_vertexes(self) -> int:
@@ -66,14 +66,16 @@ class Wgraph:
                 return
     
     def delete_connection(self, first_node, second_node, cost) -> None:
-        self.__edges[first_node].remove([second_node, cost])
-        self.__edges[second_node].remove([first_node, cost])
+        self.__edges[first_node].remove((second_node, cost))
+        self.__edges[second_node].remove((first_node, cost))
 
 
     def __str__(self) -> str:
         string = "Grafo\n"
         for key in self.__edges.keys():
-            string += str(key) + ": "
-            string += str(self.__edges[key]) + '\n'
+            string += "Conexiones de la colonia " + key + " \n"
+            for value in self.__edges[key]:
+                string += " " + "Colonia "+ str(value[0]) + ": " + str(value[1]) + "\n"
+            string += "\n"
             
         return string

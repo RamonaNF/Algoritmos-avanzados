@@ -1,5 +1,6 @@
 from Graph import Wgraph
 from MST import MST
+from TSP import TSP
 from Cercania import Coordenate, nearest_central
 from Flujo_maximo import max_flow as max_flow_func
 
@@ -10,7 +11,7 @@ flujos = []
 target = None
 flag = 0
 
-with open ("inputs/input2.txt", 'r') as info:
+with open ("inputs/input0.txt", 'r') as info:
     for linea in info:
         if flag == 0:
             nodos = int(linea.strip())
@@ -46,11 +47,12 @@ with open ("inputs/input2.txt", 'r') as info:
             target = Coordenate(x,y)
 
 
-print("MSP connections")
+print("Arbol de extension minima")
 print(MST(graphList))
+print(TSP(graphList))
 
 
-print("\nFlujos")
+print("Flujo maximo\n")
 
 max_flow = Wgraph(True)
 for i in range(len(flujos)):

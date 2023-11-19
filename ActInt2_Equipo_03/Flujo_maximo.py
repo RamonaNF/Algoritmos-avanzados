@@ -61,7 +61,6 @@ def dijkstra(start:str, end:str, graph: Wgraph) -> list :
                         path[connection.node] = v
                     
     maxPath = [end]
-    min_cost = sys.maxsize
     
     if end not in path.keys():
         return deque()
