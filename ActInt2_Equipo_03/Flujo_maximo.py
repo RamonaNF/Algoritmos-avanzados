@@ -80,7 +80,6 @@ def max_flow(graph : Wgraph, inicio: chr, final : chr) -> int :
     path = dijkstra(inicio, final, graph)
     
     while len(path) > 0:
-        print(path)
         min_cost = sys.maxsize
 
         for i in range(len(path)):
@@ -93,7 +92,6 @@ def max_flow(graph : Wgraph, inicio: chr, final : chr) -> int :
                 min_cost = aux_cost
                 
         total_flow += min_cost
-        print(min_cost)
 
         for i in range(len(path)):
             if i == 0:
