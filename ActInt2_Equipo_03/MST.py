@@ -3,7 +3,7 @@
     Conectando colonias para que compartan
     información usando fibra óptica.
 
-  Complejidad: O(  )
+  Complejidad: O( N² )
   
 """
 
@@ -64,8 +64,6 @@ def MST(grafo : list) -> Wgraph:
         # Marcamos los nodos visitados
         visited.add(nodo1)
         visited.add(nodo2)
-        
-
         
     return minimum_spanning_tree
       

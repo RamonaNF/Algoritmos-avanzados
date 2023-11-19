@@ -8,6 +8,10 @@
   Descripción: Clase para un grafo con peso.
   
 """
+class mutable_tuple:
+    def __init__(self, x, y):
+        self.node = x
+        self.cost = y
 
 class Wgraph:
     def __init__(self, direction : bool) -> None:
@@ -28,39 +32,10 @@ class Wgraph:
             self.__edges[destiny] = set()
 
         self.__edges[origin].add((destiny, cost))
-        self.__edges[destiny].add((origin, cost))
+        if not self.__direction:
+            self.__edges[destiny].add((origin, cost))
 
-
-    def get_connections_from(self, vertex) -> set :
-        return self.__edges[vertex]
-    
-    def get_vertexes(self) -> int:
-        return self.__vertexes
-    
-    def delete_connection(self, first_node, second_node, cost) -> None:
-        self.__edges[first_node].remove((second_node, cost))
-        self.__edges[second_node].remove((first_node, cost))
-
-
-    def __str__(self) -> str:
-        string = "Grafo\n"
-        for key in self.__edges.keys():
-            string += str(key) + ": "
-            string += str(self.__edges[key]) + '\n'
-            
-        return string
-
-
-class Ugraph:
-    def __init__(self, direction : bool) -> None:
-        self.__direction = direction
-        self.__vertexes = set()
-        self.__edges = {}
-
-    def contains_vertex (self, vertex) -> bool:
-        return vertex in self.__vertexes
-    
-    def add_edge (self, origin, destiny) -> None:
+    def add_mutable_edge (self, origin, destiny, cost) -> None:
         if origin not in self.__vertexes:
             self.__vertexes.add(origin)
             self.__edges[origin] = set()
@@ -69,16 +44,31 @@ class Ugraph:
             self.__vertexes.add(destiny)
             self.__edges[destiny] = set()
 
-        self.__edges[origin].add(destiny)
-        self.__edges[destiny].add(origin)
-
+        self.__edges[origin].add(mutable_tuple(destiny, cost))
+        if not self.__direction:
+            self.__edges[destiny].add(mutable_tuple(origin, cost))
 
     def get_connections_from(self, vertex) -> set :
         return self.__edges[vertex]
     
     def get_vertexes(self) -> int:
         return self.__vertexes
+
+    def get_mutable_cost(self, origin, destiny):
+        for node in self.__edges[origin]:
+            if node.node == destiny:
+                return node.cost
+
+    def edit_mutable_cost(self, first_node, second_node, new_cost) -> None:
+        for in_node in self.__edges[first_node]:
+            if in_node.node == second_node:
+                in_node.cost = new_cost
+                return
     
+    def delete_connection(self, first_node, second_node, cost) -> None:
+        self.__edges[first_node].remove([second_node, cost])
+        self.__edges[second_node].remove([first_node, cost])
+
 
     def __str__(self) -> str:
         string = "Grafo\n"

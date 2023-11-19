@@ -1,35 +1,45 @@
 from Graph import Wgraph
 from MST import MST
-
-""" #isCycled tests
-grafo.add_edge('A', 'B', 0)
-grafo.add_edge('A', 'C', 0)
-grafo.add_edge('E', 'B', 0)
-grafo.add_edge('E', 'D', 0)
-grafo.add_edge('D', 'B', 0)
-
-print(isCycled(grafo, ('A', 0)))
-"""
+from Flujo_maximo import max_flow as max_flow_func
 
 nodos = 0
 graphList = []
-flag = False
+flujos = []
+flag = 0
 
 with open ("inputs/input0.txt", 'r') as info:
     for linea in info:
-        if not flag:
+        if flag == 0:
             nodos = int(linea.strip())
-            flag = True
+            flag = flag + 1
 
-        else:
+        elif flag == 1:
             graphList.append([int(num) for num in linea.strip().split(' ')])
+            if len(graphList) == nodos:
+                flag = flag + 1
+
+        elif flag == 2:
+            flujos.append([int(num) for num in linea.strip().split(' ')])
 
 
+print("MSP connections")
 for row in graphList:
     print(row)
 print("\n")
 
+print(MST(graphList))
 
-minimum_spanning_tree = MST(graphList)
-print(minimum_spanning_tree)
-print()
+
+print("\nFlujos")
+
+for row in flujos:
+    print(row)
+print("\n")
+
+max_flow = Wgraph(True)
+for i in range(len(flujos)):
+    for j in range(len(flujos[i])):
+        if flujos[i][j]:
+            max_flow.add_mutable_edge(chr(ord('A') + i), chr(ord('A') + j), flujos[i][j])
+
+print(max_flow_func(max_flow, 'A', chr(ord('A') + len(flujos)-1)))
