@@ -9,6 +9,7 @@
 
 from Graph import Wgraph
 from collections import deque
+import copy
 import sys
 
 
@@ -82,6 +83,8 @@ def degree (grafo: Wgraph, nodo: str) -> int:
 
     
 def TSP(grafo : list) -> Wgraph:
+    original_graph = copy.deepcopy(grafo)
+
     visited = set()
     traveling = Wgraph(False)
     connected = 0
@@ -115,6 +118,7 @@ def TSP(grafo : list) -> Wgraph:
 
     nodo1 = None
     nodo2 = None
+    cost = 0
     
     for i in range(len(grafo)):
         if degree(traveling, chr(ord('A') + i)) == 1:
@@ -124,7 +128,17 @@ def TSP(grafo : list) -> Wgraph:
             else:
                 nodo2 = chr(ord('A') + i)
                 
-                traveling.add_edge(chr(ord('A') + nodo1), nodo2, grafo[nodo1][i])
+                traveling.add_edge(chr(ord('A') + nodo1), nodo2, original_graph[nodo1][i])
+                cost += original_graph[nodo1][i]
                 break
 
-    return dfs(traveling, chr(ord('A') + nodo1), nodo2)
+    nodo1 = chr(ord('A') + nodo1)
+    path = dfs(traveling, nodo1, nodo2)
+    
+    for i in range(len(path)):
+        if i == 0:
+            cost += traveling.get_cost(nodo1, path[i])
+        else:   
+            cost += traveling.get_cost(path[i - 1], path[i])
+
+    return nodo1, path, cost

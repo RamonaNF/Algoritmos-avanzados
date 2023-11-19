@@ -27,12 +27,7 @@ class Node(object):
       return self.node == other.node and self.cost == other.cost
 
 
-def dijkstra(start:str, end:str, graph: Wgraph) -> list :
-    """
-    La función dijkstra recibe dos puntos y un modelo y regresa
-    el camino con mayor flujo a seguir para llegar del punto de 
-    inicio al punto final
-    """
+def flow_function(start:str, end:str, graph: Wgraph) -> list :
     visited = set()
     path = {}
 
@@ -76,7 +71,7 @@ def dijkstra(start:str, end:str, graph: Wgraph) -> list :
 
 def max_flow(graph : Wgraph, inicio: chr, final : chr) -> int :
     total_flow = 0
-    path = dijkstra(inicio, final, graph)
+    path = flow_function(inicio, final, graph)
     
     while len(path) > 0:
         min_cost = sys.maxsize
@@ -98,6 +93,6 @@ def max_flow(graph : Wgraph, inicio: chr, final : chr) -> int :
             else:   
                 graph.edit_mutable_cost(path[i-1], path[i], graph.get_mutable_cost(path[i-1], path[i]) - min_cost)
             
-        path = dijkstra(inicio, final, graph)
+        path = flow_function(inicio, final, graph)
     
     return total_flow

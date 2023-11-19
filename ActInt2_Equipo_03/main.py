@@ -3,6 +3,7 @@ from MST import MST
 from TSP import TSP
 from Cercania import Coordenate, nearest_central
 from Flujo_maximo import max_flow as max_flow_func
+import copy
 
 nodos = 0
 coordenates = []
@@ -11,7 +12,7 @@ flujos = []
 target = None
 flag = 0
 
-with open ("inputs/input0.txt", 'r') as info:
+with open ("inputs/input1.txt", 'r') as info:
     for linea in info:
         if flag == 0:
             nodos = int(linea.strip())
@@ -47,12 +48,25 @@ with open ("inputs/input0.txt", 'r') as info:
             target = Coordenate(x,y)
 
 
-print("Arbol de extension minima")
-print(MST(graphList))
-print(TSP(graphList))
+copied = copy.deepcopy(graphList)
+
+print("Punto 01: ÁRBOL DE EXTENSIÓN MÍNIMA")
+print(MST(copied))
 
 
-print("Flujo maximo\n")
+print("Punto 02: PROBLEMA DEL AGENTE VIAJERO")
+origin, path, costo = TSP(graphList)
+
+printStr = str(origin) + " -> "
+for nodo in path:
+    printStr = printStr + nodo + " -> "
+printStr = printStr + origin
+
+print(printStr)
+print("El costo: ", costo)
+
+
+print("\n\nPunto 03: FLUJO MÁXIMO")
 
 max_flow = Wgraph(True)
 for i in range(len(flujos)):
@@ -63,5 +77,6 @@ for i in range(len(flujos)):
 print("Flujo máximo: ", max_flow_func(max_flow, 'A', chr(ord('A') + len(flujos)-1)))
 
 
+print("\nPunto 04: COORDENADA MÁS CERCANA")
 central = nearest_central(coordenates, target)
-print("\n\nLa central más cercana a", target, "es", coordenates[central[1]], "con una distancia de", central[0])
+print("La central más cercana a", target, "es", coordenates[central[1]], "con una distancia de", central[0])

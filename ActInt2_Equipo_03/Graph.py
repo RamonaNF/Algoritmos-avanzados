@@ -59,6 +59,11 @@ class Wgraph:
             if node.node == destiny:
                 return node.cost
 
+    def get_cost(self, origin, destiny):
+        for node in self.__edges[origin]:
+            if node[0] == destiny:
+                return node[1]
+
     def edit_mutable_cost(self, first_node, second_node, new_cost) -> None:
         for in_node in self.__edges[first_node]:
             if in_node.node == second_node:
@@ -71,7 +76,8 @@ class Wgraph:
 
 
     def __str__(self) -> str:
-        string = "Grafo\n"
+        #string = "Grafo\n"
+        string = ""
         for key in self.__edges.keys():
             string += "Conexiones de la colonia " + key + " \n"
             for value in self.__edges[key]:
